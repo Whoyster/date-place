@@ -1,2 +1,2 @@
 # date-place
-recommend date place
+recommend date place.

@@ -1,0 +1,1334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="린미의 놀이터" href="http://lynmi.tistory.com/rss" />
+<link rel="stylesheet" media="screen" type="text/css" href="http://ts.daumcdn.net/custom/blog/87/877425/skin/style.css?_T_=1414212471" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>린미의 놀이터 :: 청평데이트코스, 라이크디스 레스토랑 추천!</title>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/plugins/A_ShareEntryWithSNS/css/shareEntryWithSNS.css"/>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/plugins/A_ShareEntryWithSNS/script/shareEntryWithSNS.js"></script>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(http://i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/plugins/TistoryProfileLayer/style.css" />
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/plugins/TistoryProfileLayer/profile.js"></script>
+<script type="text/javascript">var asyncProfileItems = [];</script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+//<![CDATA[
+var servicePath = "";
+var blogURL = "";
+var s_trackbackUrlCopied = "엮인글 주소가 복사되었습니다";
+var s_trackbackUrlCopyFailed = "엮인글 주소를 복사하지 못했습니다";
+var SCRIPT_VERSION = '1200';
+//]]>
+</script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/lib/jigu/jigu-latest.min.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/T.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/EAF2.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/common.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/gallery.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/flash.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/PHON.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/swfobject.js"></script>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/style/dialog.css" />
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/style/menubar.css"/><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style>
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://lynmi.tistory.com/360" >
+<meta property="og:site_name" content="린미의 놀이터" >
+<meta property="og:title" content="청평데이트코스, 라이크디스 레스토랑 추천!" >
+<meta property="og:description" content="청평데이트코스, 라이크디스 레스토랑 추천! 이번에 가평펜션을 방문하기 전에 청평에 들러 맛있는 곳에서 데이트하고 왔답니다;) 청평이나 가평으로 펜션여행 하기 전에 여기들려서 맛난 파스타와 피자먹고 펜션으로 가는 데이트코스로 추천! 그곳은 바로 라이크디스에용^^ 커피가 맛잇는 곳이라고 하던데 레스토랑도 오픈했나봐요~ㅎㅎ 먼저 레스토랑에서 맛난 점심을 먹고 왔답니다;)  청평역 1번출구에 나와서 한 5~10분정도.." >
+<meta property="og:image" content="http://cfile29.uf.tistory.com/image/257D204D52BBC85D2A9994" >
+<meta property="article:section" content="맛집" >
+</head>
+
+<body id="tt-body-page">
+
+
+<script type="text/javascript">
+//<![CDATA[
+	var TOP_SSL_URL = 'https://www.tistory.com';
+
+	function processShortcut(event) {
+			if (isIE)
+		{
+			event = window.event;
+			event.target = event.srcElement;
+		}
+
+		if (event.altKey || event.ctrlKey || event.metaKey)
+			return;
+		switch (event.target.nodeName) {
+			case "INPUT":
+			case "SELECT":
+			case "TEXTAREA":
+				return;
+		}
+		switch (event.keyCode) {
+			case 81: //Q
+
+				window.location = "/admin";
+				break;
+			case 65: //A
+				window.location = "/361";
+				break;
+			case 83: //S
+				window.location = "/359";
+				break;
+			case 90: //Z
+				window.location = "#recentEntries";
+				break;
+			case 88: //X
+				window.location = "#recentComments";
+				break;
+			case 67: //C
+				window.location = "#recentTrackback";
+				break;
+		}
+	}
+	document.onkeydown = processShortcut;
+
+	function addComment(caller, entryId) {
+		var oForm = findFormObject(caller);
+		if (!oForm)
+			return false;
+		var request = new HTTPRequest("POST", oForm.action);
+		request.onSuccess = function () {
+			if(entryId == 0)
+				window.location = blogURL + "/guestbook";
+			else {
+				document.getElementById("entry" + entryId + "Comment").innerHTML = this.getText("/response/commentBlock");
+				if(document.getElementById("recentComments"))
+					document.getElementById("recentComments").innerHTML = this.getText("/response/recentCommentBlock");
+				if(document.getElementById("commentCount" + entryId))
+					document.getElementById("commentCount" + entryId).innerHTML = this.getText("/response/commentView");
+				if(document.getElementById("commentCountOnRecentEntries" + entryId))
+					document.getElementById("commentCountOnRecentEntries" + entryId).innerHTML = "(" + this.getText("/response/commentCount") + ")";
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init('complete');
+			}
+		}
+		request.onError = function() {
+			var description = this.getText("/response/description");
+			if (description) { alert(description); }
+		}
+		var queryString = "key=tistory";
+		var captchaInput = document.getElementById('inputCaptcha');
+		if (oForm["name"])
+			queryString += "&name=" + encodeURIComponent(oForm["name"].value);
+		if (oForm["password"])
+			queryString += "&password=" + encodeURIComponent(oForm["password"].value);
+		if (oForm["homepage"])
+			queryString += "&homepage=" + encodeURIComponent(oForm["homepage"].value);
+		if (oForm["secret"] && oForm["secret"].checked)
+			queryString += "&secret=1";
+		if (oForm["comment"])
+			queryString += "&comment=" + encodeURIComponent(oForm["comment"].value);
+		if (captchaInput) {
+			if (!captchaInput.value) {
+				alert('그림문자가 입력되지 않았습니다.');
+				return false;
+			}
+			queryString += "&captcha=" + encodeURIComponent(captchaInput.value);
+		}
+		request.send(queryString);
+	}
+	var openWindow='';
+	function alignCenter(win,width,height) {
+		if(navigator.userAgent.indexOf("Chrome") == -1)
+			win.moveTo(screen.width/2-width/2,screen.height/2-height/2);
+	}
+
+	function deleteComment(id) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/delete/" + id, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function commentComment(parent, guestbookPage) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent + (guestbookPage ? "?guestbookPage=" + guestbookPage: ""), "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function editEntry(parent,child) {
+		var width =  1169;
+		var height = 600;
+		if(openWindow != '') openWindow.close();
+		openWindow = window.open("/admin/entry/edit/" + parent + "?popupEditor&returnURL=CLOSEME","tatter", "width="+1169+",height="+600+",location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function guestbookComment(parent) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function sendTrackback(id) {
+		var width = 700;
+		var height = 500;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/trackback/send/" + id, "tatter", "width=580,height=400,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+				openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function deleteTrackback(id,entryId) {
+		if (confirm("트랙백을 삭제하기 위해서는 로그인이 필요합니다.\n로그인 하시겠습니까?\t")) {
+			window.location = "https://www.tistory.com/login/";
+			return false;
+		} else {
+			return false;
+		}
+	}
+
+	function reloadEntry(id) {
+		var password = document.getElementById("entry" + id + "password");
+		if (!password)
+			return;
+		document.cookie = "GUEST_PASSWORD=" + encodeURIComponent(password.value) + ";path=";
+
+		window.location.href = window.location.href;
+	}
+	loadedComments = new Array();
+	loadedTrackbacks = new Array();
+	function viewTrigger(id, category, categoryId) {
+		var request = new HTTPRequest("GET", "/"+category+"/view/" + id);
+		var target = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+		if(target == null)
+			return false;
+		request.onSuccess = function() {
+			target.innerHTML = this.getText("/response/result");
+			target.style.display = 'block';
+			highlight();
+			category == 'comment' ? loadedComments[id] = true : loadedTrackbacks[id] = true;
+			if(categoryId > -1)
+				location = location.toString();
+			if(category == 'trackback') {
+				var holder = document.getElementById('TrackbackCopyHolder' + id);
+				if(holder) {
+					holder.innerHTML = AC_FL_RunContentNotWriteGetString(
+						'src','http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/copyTrackback',
+						'Flashvars','url=http://lynmi.tistory.com/trackback/' + id + '&mode=whiteButton',
+						'width','29',
+						'height','18',
+						'id', 'TrackbackCopyButton' + id,
+						'wmode','transparent',
+						'allowScriptAccess','always',
+						'type','application/x-shockwave-flash',
+						'pluginspage','http://www.macromedia.com/go/getflashplayer'
+					);
+				}
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init();
+			}
+		}
+		request.onError = function() {
+			alert('실패 했습니다');
+		}
+		request.send();
+	}
+	function highlight() {
+		var hash = new RegExp("^#(comment\\d+)").exec(window.location.hash);
+		if(hash && (el = document.getElementById(hash[1])))
+			highlightElement(hash[1], 0, el.style.backgroundColor);
+	}
+	function highlightElement(id, amount, origColor) {
+		var el = document.getElementById(id);
+		if (!el) {
+			return;
+		}
+		el.style.backgroundColor = amount % 2 ? "#FFFF44" : origColor;
+		if (++amount < 7) {
+			setTimeout("highlightElement('" + id + "', " + amount + ", '" + origColor + "')", 200);
+		}
+	}
+	function toggleLayerForEntry(id, category, categoryId, mode) {
+		if((category == 'comment' ? loadedComments[id] : loadedTrackbacks[id])) {
+			try {
+				var obj = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+				if(mode == undefined)
+					obj.style.display = (obj.style.display == "none") ? "block" : "none";
+				else
+					obj.style.display = (mode == 'show') ? "block" : "none";
+			} catch (e) {
+
+			}
+			return true;
+		} else {
+			if(categoryId) {
+				viewTrigger(id,category, categoryId);
+			} else {
+				viewTrigger(id,category, -1);
+			}
+		}
+	}
+	function ObserverForAnchor(evetObj) {
+		var lo = location.toString();
+		var queryString = lo.substr(lo.lastIndexOf('/')+1);
+		if(queryString.indexOf('#')>-1) {
+			var qsElements = queryString.split('#');
+			if(qsElements[1].indexOf('comment')>-1) {
+				var category = 'comment';
+			} else if(qsElements[1].indexOf('trackback')>-1) {
+				var category = 'trackback';
+			}
+			if(category) {
+				entryid = qsElements[0];
+				categoryId = qsElements[1].substr(category.length);
+				toggleLayerForEntry(entryid,category,categoryId, 'show');
+			}
+		}
+	}
+
+	STD.addEventListener(window);
+	window.addEventListener("load", ObserverForAnchor, false);
+//]]>
+</script>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+
+<div id="container">
+<div id="menutop"></div>
+<div id="header">
+		<h1><span class="subs">린미의 놀이터</span><span class="subj"><a href="/" title="처음으로">린미의 놀이터</a></span></h1>
+		<h2></h2>
+		<div id="menu" class="clearfix">
+			<a href="/" title="처음으로" class="blog"><span class="subs1">Blog</span><span class="subj">Blog</span></a>
+			<a href="/notice" title="공지" class="notice"><span class="subs2">Notice</span><span class="subj">Notice</span></a>
+			<a href="/tag" title="태그" class="tag"><span class="subs3">Tag Log</span><span class="subj">Tag Log</span></a>
+			<a href="/location" title="지역로그" class="localog"><span class="subs4">Location Log</span><span class="subj">Location Log</span></a>
+			<a href="/guestbook" title="방명록" class="guestbook"><span class="subs5">Guestbook</span><span class="subj">Guestbook</span></a>	
+			<a href="/admin" title="관리자" class="admin"><span class="subs">Login</span><span class="subj">Login</span></a>		
+	</div><!--//menu-->
+	</div>
+	<!--//header-->
+	
+	<div id="content">
+	
+	<div id="nonEntry">
+	
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+	
+	</div><!--//nonEntry-->
+			
+		
+			<div id="entry">
+				<div class="titleWrap">
+					<h2><span class="subs">청평데이트코스, 라이크디스 레스토랑 추천!</span><span class="subj"><a href="/360">청평데이트코스, 라이크디스 레스토랑 추천!</a></span></h2>
+					<span class="info">
+						Posted at 2013/12/26 15:40 |  
+						Posted in <a href="/category/린미%27s%20맛있는이야기" class="category">린미's 맛있는이야기</a>
+					</span>
+					
+				</div><!--//titleWrap-->
+
+				<div class="article">
+<!-- 구글 -->
+<P style="TEXT-ALIGN: center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 애드센스 new 상단 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4815951068137709"
+     data-ad-slot="7033524330"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>
+
+
+
+<div style = "margin-left:50px; float :right;">
+</br>
+
+
+
+</br>
+</div>
+
+
+
+
+
+
+
+
+
+
+					<div class="tt_article_useless_p_margin"><DIV class=txc-textbox style="BORDER-TOP: #cbcbcb 1px solid; BORDER-RIGHT: #cbcbcb 1px solid; BORDER-BOTTOM: #cbcbcb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #cbcbcb 1px solid; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #ffffff">청평데이트코스, 라이크디스 레스토랑 추천!</DIV>
+<P>&nbsp;</P>
+<P>이번에 가평펜션을 방문하기 전에 청평에 들러 맛있는 곳에서 데이트하고 왔답니다;) </P>
+<P>청평이나 가평으로 펜션여행 하기 전에 여기들려서 맛난 파스타와 피자먹고 펜션으로 가는 데이트코스로 추천!</P>
+<P>그곳은 바로 라이크디스에용^^ 커피가 맛잇는 곳이라고 하던데 레스토랑도 오픈했나봐요~ㅎㅎ</P>
+<P>먼저 레스토랑에서 맛난 점심을 먹고 왔답니다;)</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile26.uf.tistory.com/image/2371D94E52BBC84D113D87"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>청평역 1번출구에 나와서 한 5~10분정도 걸으면 쉽게 찾을 수 있어요;) </P>
+<P>큰길따라 쭈욱~걸어가면 되더라구요.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile4.uf.tistory.com/image/226C344E52BBC84E14CE1D"  height="488" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>안에 들어가니&nbsp;우리가 좋아하는 빈티지 스타일!!+ㅁ+</P>
+<P>이런 분위기 좋아하는데 말이죵!ㅎㅎㅎ 평일이라 그런지 아직 한산하더라구요.</P>
+<P>저희는 조용히 맛을&nbsp;즐기고 왔습니다^^</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile22.uf.tistory.com/image/264FBA4E52BBC8501D41EB"  height="488" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>작은줄 알았는데, 안에 은근히 룸이 많더라구요! 그래서 이곳저곳 사진도 찍고 그랬지요;)</P>
+<P>여기는 가끔 공연도 하나봐요. 시설이 마련되어 있는거 보면~ㅎㅎ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile5.uf.tistory.com/image/215BB44E52BBC85119775C"  height="488" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>이쪽도 룸이구요, </P>
+<P>여자들끼리 와서 실컷 수다를 떨어도 좋은 그런 공간이에요;)</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile5.uf.tistory.com/image/215A6A4E52BBC85218AAA7"  height="488" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>여기는 룸안에 또 룸이!ㅎㅎㅎ</P>
+<P>조용하니, 커플들이 좋아할것 같은 그런장소에요^^호호호호호</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile9.uf.tistory.com/image/2173C14E52BBC854103690"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>재미나게 메뉴판이 벽에 그려져 있어요;)</P>
+<P>룸마다 다 그려져 있으니 편하게 주문하시면 될것 같네요.</P>
+<P>저희는 해산물크림파스타와 &nbsp;고르곤졸라를 주문했습니다^^</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile7.uf.tistory.com/image/2139A34E52BBC8552A1DE3"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>셋팅완료!!+ㅁ+)/</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile5.uf.tistory.com/image/234C734D52BBC8560680B2"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>식전빵인데&nbsp;직접 만드신것 같아요.</P>
+<P>마늘빵인데&nbsp;바삭하니 고소하더라구요+ㅁ+</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile22.uf.tistory.com/image/2619A54D52BBC8571FC690"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>오일에 찍어먹는 맛이란, 구웃!!!!</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile29.uf.tistory.com/image/231E264D52BBC8581D3CD1"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>피자가 먼저 나왔습니다!!^^ 고르곤졸라피자인데요,</P>
+<P>여긴 특이하게 따로 꿀이 나오지 않게 피자위에 듬뿍 뿌려져 있더라구요. </P>
+<P>그래서 따로 찍어먹지 않아도 충분히 꿀맛을 느낄 수 있어요ㅎㅎㅎ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile1.uf.tistory.com/image/241A234D52BBC8591DF9A4"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>그리고 이렇게 따뜻하게 데워주는 센스!!!</P>
+<P>요즘 이렇게 하는것이&nbsp;대세인가봐요;)</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile21.uf.tistory.com/image/26212E4D52BBC85A1B0149"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>여기에&nbsp;꿀이 듬뿍 발라져 있어서 먹을때 꿀이 줄줄~ㅎㅎㅎ</P>
+<P>달달하니 정말 맛있었어요! 원래 고르곤졸라피자를 좋아하는지라..ㅎㅎ여기저기 많이 먹어봤는데..</P>
+<P>여기도 맛집으로 선정!ㅎㅎㅎ</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile29.uf.tistory.com/image/257D204D52BBC85D2A9994"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>100%자연치즈라고 하네요! 쭉쭉 잘늘어납니다!ㅎㅎ</P>
+<P>저희 커플에게는 딱 좋은 사이즈! 어디서 먹으면 항상 남겼는데..여기는 2조각씩 먹으니까 좋더라구요^^</P>
+<P>다른분들은 어떨지 모르겠으나 좋은 양에 아주 맛있게 먹었어용!ㅎㅎ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile1.uf.tistory.com/image/2134D24D52BBC85C11E9B9"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>그리고 남자친구가 감탄(?)했던 피클! (무절임이라고 해야하나요?)</P>
+<P>보통 깍두기처럼 깍아서 절이는데 여기는 총각김치처럼 담그셨더라구요ㅎㅎ</P>
+<P>포장해달라고 할뻔했다는...ㅋㅋㅋㅋㅋㅋ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile27.uf.tistory.com/image/2527934C52BBC85E150114"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>해물크림파스타에요;)</P>
+<P>해물이 듬뿍 들어있어서 마음에 들었어요.&nbsp;해물크림파스타라고 하더라도 크림향이 더 강한데,</P>
+<P>여기는 해물향이 더 강하다는..ㅎㅎㅎ그럼 어느정도인지 감이 가시죠?ㅎㅎ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile7.uf.tistory.com/image/270E324C52BBC85F20E3DB"  height="435" width="650"/></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>둘이서 아주 맛나게 깨끗히 먹고&nbsp;왔어요;)</P>
+<P>남자친구가 파스타를 선호하는 편은 아닌데, 잘 먹더라구요. </P>
+<P>맛있었나봅니다!ㅋㅋㅋㅋㅋㅋ</P>
+<P>우리커플은 대만족! 펜션들어가기 전에 배를 빵빵하게 채우고 들어갔다는!ㅎㅎㅎ</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:650px;;height:auto"><img src="http://cfile10.uf.tistory.com/image/2230F34C52BBC86011F52F"  height="488" width="650"/></span></P>
+<p>&nbsp;</p>
+<P>&nbsp;</P>
+<P>빈티지 분위기에 맛있는 파스타와 피자를 즐겼던 라이크디스 레스토랑이였습니다.</P>
+<P>다 먹고 건너편에 있는 라이크디스카페에서도 커피를 마셨지용! </P>
+<P>그 후기는 내일;)</P>
+<P>청평데이트코스로 라이크디스 레스토랑 추천합니다^^*</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="TEXT-ALIGN: center"><iframe id="emap_155918" src="/admin/entry/post/proxyPlusmapViewer.php?id=emap_155918&amp;mapGb=V" width="521" height="451" frameborder="0" scrolling="no" mapdata="map_type=TYPE_MAP&map_hybrid=false&idx=1&title=%ED%8E%8D%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%EB%9D%BC%EC%9D%B4%ED%81%AC%EB%94%94%EC%8A%A4&addr=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B0%80%ED%8F%89%EA%B5%B0%20%EC%B2%AD%ED%8F%89%EB%A9%B4&tel=0505-7521-9841&mapX=593135&mapY=1177750&ifrW=490px&ifrH=362px&addtype=1&map_level=4&rcode=3137032&docid=&confirmid=21406720&mapWidth=490&mapHeight=362&mapInfo=%7B%22mapWidth%22%3A490%2C%22mapHeight%22%3A362%2C%22mapCenterX%22%3A593135%2C%22mapCenterY%22%3A1177750%2C%22mapLevel%22%3A4%2C%22coordinate%22%3A%22wcongnamul%22%2C%22markInfo%22%3A%5B%7B%22markerType%22%3A%22standPlace%22%2C%22coordinate%22%3A%22wcongnamul%22%2C%22x%22%3A593137%2C%22y%22%3A1177754%2C%22clickable%22%3Atrue%2C%22draggable%22%3Atrue%2C%22icon%22%3A%7B%22width%22%3A40%2C%22height%22%3A42%2C%22offsetX%22%3A14%2C%22offsetY%22%3A38%2C%22src%22%3A%22http%3A%2F%2Fi1.daumcdn.net%2Flocalimg%2Flocalimages%2F07%2F2012%2Fimg%2Fmarker_p.png%22%7D%2C%22content%22%3A%22%ED%8E%8D%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%EB%9D%BC%EC%9D%B4%ED%81%AC%EB%94%94%EC%8A%A4%22%2C%22confirmid%22%3A21406720%7D%5D%2C%22graphicInfo%22%3A%5B%5D%2C%22roadviewInfo%22%3A%5B%5D%7D&toJSONString="></iframe></P>
+<P style="TEXT-ALIGN: center">&nbsp;</P>
+<P style="TEXT-ALIGN: center"><A title="모두의 블로그 벼라별 체험단 리뷰입니다!" style="WHITE-SPACE: normal; TEXT-TRANSFORM: none; WORD-SPACING: 0px; COLOR: rgb(53,53,255); FONT: 12px/21px 돋움, arial, dotum; TEXT-DECORATION: underline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px" href="http://www.modublog.co.kr/" target=_blank><IMG onclick='amina_img("https://googledrive.com/host/0B_GQux4byhn8aFgzWTUyS1g4ZVU/modu_review.jpg")' title="모두의 블로그 벼라별 체험단으로 작성한 리뷰입니다." class=aimg style="CURSOR: pointer; MAX-WIDTH: 600px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px" alt="모두의 블로그" src="https://googledrive.com/host/0B_GQux4byhn8aFgzWTUyS1g4ZVU/modu_review.jpg"></A></P>
+<P style="TEXT-ALIGN: center">&nbsp;</P>
+<P style="TEXT-ALIGN: center">
+<DIV>
+<DIV id=a>
+<CENTER><br /><span id="callbacknestlynmitistorycom3604161" style="width:1px; height:1px; float:right"><embed  allowscriptaccess="always"  id="bootstrapperlynmitistorycom3604161"  src="http://lynmi.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;nil_type=copied_post"  width="1"  height="1"  wmode="transparent"  type="application/x-shockwave-flash"  EnableContextMenu="false"  FlashVars="&amp;callbackId=lynmitistorycom3604161&amp;host=http://lynmi.tistory.com&amp;embedCodeSrc=http%3A%2F%2Flynmi.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fresource%2F1200%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D360%26callbackId%3Dlynmitistorycom3604161%26destDocId%3Dcallbacknestlynmitistorycom3604161%26host%3Dhttp%3A%2F%2Flynmi.tistory.com%26float%3Dleft" swLiveConnect="true"/></span>
+<SCRIPT type=text/javascript><!--
+google_ad_client = "ca-pub-4815951068137709";
+/* 상단 오른쪽 */
+google_ad_slot = "7374645934";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</SCRIPT>
+<br /><br /></CENTER></DIV><br /></DIV></P>
+<P style="TEXT-ALIGN: center"></P>
+<P style="TEXT-ALIGN: center">&nbsp;</P>
+<P style="TEXT-ALIGN: center">&nbsp;</P>
+<P>&nbsp;</P><div class="daum_like_wrapper"><iframe class="daum_like_button" id="daum_like_button_360" frameborder="0" scrolling="no" allowTransparency="true" src="http://lynmi.tistory.com/like/?uid=877425_360&sc=204%2CblogId_877425&url=http%3A%2F%2Flynmi.tistory.com%2F360&published=1388040050" style="width: 100%; height: 44px; margin: 10px auto"></iframe></div><div id="TixIntroMap" style="width:400px;height:80px;overflow:hidden;background:url(http://i1.daumcdn.net/localimg/localimages/07/2008/map/tstory/img_maplus_n.gif) no-repeat; margin: 10px auto;">
+			<div style="margin-left:71px;height:78px;border:solid 1px #e0e0e0;border-left:0 none;position:relative;z-index:1;background-color:#fcfcfc;text-align:left;">
+				<div style="padding-left:12px;margin-top:24px;font-size:12px;font-family:dotum,돋움,sans-serif;color:#333;font-weight:bold;letter-spacing:-1px;line-height:16px;">
+					이 장소를 <a target="_blank" onclick="tiaraClick('tistory', 'map');" href="http://local.daum.net/map/index.jsp?titag=http://lynmi.tistory.com/sync/local/360" style="color:#3e4fca;font-size:12px;font-family:dotum,돋움,sans-serif;font-weight:bold;text-decoration:underline;">Daum지도</a>에서 확인해보세요.
+				</div>
+				<div style="padding-left:12px;margin-top:3px;font-size:12px;font-family:dotum,돋움,sans-serif;color:#666;font-weight:normal;letter-spacing:-1px;line-height:16px;">
+						<span style="font-size:12px;font-family:dotum,돋움,sans-serif;color:#8e8e8e;font-weight:normal;letter-spacing:-1px;">경기도 가평군 청평면 </span><span style="color:#b9b9b9;margin:0 5px 0 4px;">|</span><span style="font-size:12px;font-family:dotum,돋움,sans-serif;color:#8e8e8e;font-weight:normal;letter-spacing:-1px;"> 펍레스토랑라이크디스</span>
+				</div>
+				<a href="http://notice.tistory.com/1342" target="_blank" style="display:block;position:absolute;top:5px;right:5px;z-index:1;width:6px;height:8px;overflow:hidden;text-indent:-1000em;background:url(http://i1.daumcdn.net/localimg/localimages/07/2008/map/tstory/icon_map_que.gif) no-repeat;">도움말</a>
+				<a href="http://local.daum.net" target="_blank" style="display:block;position:absolute;bottom:5px;right:5px;z-index:1;width:57px;height:12px;overflow:hidden;text-indent:-1000em;background:url(http://i1.daumcdn.net/localimg/localimages/07/2008/map/tstory/logo_blog.gif) no-repeat;">Daum 지도</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function tiaraClick(section, item) {
+				var tiaraParam = "t__nil_" + section + "=" + item;
+				var d_url = document.location.href;
+				if(d_url.indexOf("?") < 0){
+					tiaraParam = "?"+tiaraParam;
+				}else{
+					tiaraParam = "&"+tiaraParam;
+				}
+				var img = new Image(1,1);
+				img.src = "http://tiara.daum.net/tiara.front/front/click/?referer=http%3A%2F%2Flocal.daum.net%2F&url="+d_url+tiaraParam;
+			}
+		</script>
+	<div class="tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-left tt-sns-icon-size-big">
+	<div class="tt-sns-wrap" id="ttSnsWrap-360">
+		<ul class="tt-sns-service-default">
+			<li class="tt-sns-service-kakaostory"><a href="javascript:;" onclick="ShareEntryWithSNS.share('kakaostory', '360', '%EC%B2%AD%ED%8F%89%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%BD%94%EC%8A%A4%2C%20%EB%9D%BC%EC%9D%B4%ED%81%AC%EB%94%94%EC%8A%A4%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EC%B6%94%EC%B2%9C%21');">카카오스토리</a></li>
+			<li class="tt-sns-service-twitter"><a href="javascript:;" onclick="ShareEntryWithSNS.share('twitter', '360', '%EC%B2%AD%ED%8F%89%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%BD%94%EC%8A%A4%2C%20%EB%9D%BC%EC%9D%B4%ED%81%AC%EB%94%94%EC%8A%A4%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EC%B6%94%EC%B2%9C%21');">트위터</a></li>
+			<li class="tt-sns-service-facebook"><a href="javascript:;" onclick="ShareEntryWithSNS.share('facebook', '360', '%EC%B2%AD%ED%8F%89%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%BD%94%EC%8A%A4%2C%20%EB%9D%BC%EC%9D%B4%ED%81%AC%EB%94%94%EC%8A%A4%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EC%B6%94%EC%B2%9C%21');">페이스북</a></li>
+		</ul>
+	</div>
+	<div class="tt-sns-clear"></div>
+</div>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="/category/린미%27s%20맛있는이야기">린미's 맛있는이야기</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/370" >청담 한정식 추천) 칠량에서 건강하게 밥먹기!</a>&nbsp;&nbsp;<span>(10)</span>
+</th>
+<td>
+2014/01/06</td>
+</tr>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/361" >청평카페맛집, 직접 로스팅하는 라이크디스카페 추천!</a>&nbsp;&nbsp;<span>(8)</span>
+</th>
+<td>
+2013/12/27</td>
+</tr>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/360"  class ="current" >청평데이트코스, 라이크디스 레스토랑 추천!</a>&nbsp;&nbsp;<span>(9)</span>
+</th>
+<td>
+2013/12/26</td>
+</tr>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/356" >남양주/팔당 카페 추천, 한옥의 멋과 맛이 있는 고당</a>&nbsp;&nbsp;<span>(12)</span>
+</th>
+<td>
+2013/12/22</td>
+</tr>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/354" >아웃백 립아이스테이크 + 치즈 랍스터 테르미도르(겨울한정메뉴) 시식후기 &amp; 할인카드</a>&nbsp;&nbsp;<span>(8)</span>
+</th>
+<td>
+2013/12/21</td>
+</tr>
+<tr>
+<th>
+<a href="http://lynmi.tistory.com/349" >방이 송년회장소 추천! 해신에서 기분좋고 배부르게!</a>&nbsp;&nbsp;<span>(11)</span>
+</th>
+<td>
+2013/12/15</td>
+</tr>
+</table></div></div>
+				</div>
+				
+				
+					<div class="tagTrail">
+						<span class="tagtext"><a href="/tag/라이크디스레스토랑"  rel="tag">라이크디스레스토랑</a>,
+<a href="/tag/라이크디스펍레스토랑"  rel="tag">라이크디스펍레스토랑</a>,
+<a href="/tag/청평데이트코스"  rel="tag">청평데이트코스</a>,
+<a href="/tag/청평데이트코스추천"  rel="tag">청평데이트코스추천</a>,
+<a href="/tag/청평맛집"  rel="tag">청평맛집</a>,
+<a href="/tag/청평파스타맛집"  rel="tag">청평파스타맛집</a>,
+<a href="/tag/청평피자맛집"  rel="tag">청평피자맛집</a>,
+<a href="/location"><span class="locationTag">경기도 가평군 청평면 | 펍레스토랑라이크디스</span></a></span>
+					</div>
+				
+				
+				<div class="actionTrail clearfix">
+					<a href="#rp" onclick="toggleLayerForEntry('360', 'comment'); return false" class="bt">
+						<span id="commentCount360">
+							댓글 <span class="cnt">(9)</span>
+						</span>
+					</a>
+					//
+					<a href="#tb" onclick="toggleLayerForEntry(360, 'trackback'); return false" class="bt">
+						<span id="trackbackCount360">트랙백이 없고</span>
+					</a>
+				</div>
+				
+				<div id="entry360Trackback" style="display:none">
+					<div class="trackback">
+						<h3> 	<span class="trackback-url" style="cursor: text">http://lynmi.tistory.com/trackback/360</span>
+	<span id="TrackbackCopyHolder360" style="vertical-align: -4px; margin-left: 1px">
+	<script type="text/javascript">
+	//<![CDATA[
+	AC_FL_RunContent(
+		'src','http://s1.daumcdn.net/cfs.tistory/resource/1200/blog/script/copyTrackback',
+		'Flashvars','url=http://lynmi.tistory.com/trackback/360&mode=whiteButton',
+		'width','29',
+		'height','18',
+		'id', 'TrackbackCopyButton360',
+		'wmode','transparent',
+		'allowScriptAccess','always',
+		'type','application/x-shockwave-flash',
+		'pluginspage','http://www.macromedia.com/go/getflashplayer'
+	);
+	//]]>
+	</script>
+	</span>
+	<span>
+		<a href="http://www.tistory.com/gateway/?trackback=http%3A%2F%2Flynmi.tistory.com%2Ftrackback%2F360&amp;defaultAdmin=%2Fadmin" onclick="window.open(this.href); return false">
+	<img src="http://i1.daumcdn.net/cfs.tistory/resource/1200/static/admin/btn_track_white.gif" alt="관련글 쓰기" title="" style="_margin-left: 5px; vertical-align: -4px"/>
+	</a></span>
+</h3>
+						
+					</div><!--//trackback-->
+				</div>
+				
+				<div id="entry360Comment" style="display:block">
+					<div class="comment">
+					
+						<div class="commentList">
+							
+								<ol>
+									
+										<li id="comment10587059">
+											<div class="rp_general">
+												<div class="name"><a href="http://freemarket24.tistory.com" onclick="return openLinkInNewWindow(this)">프리마켓24</a><span class="tistoryProfileLayerTrigger" onclick='tistoryProfile.show(event, this, {&quot;title&quot;:&quot;\uac1c\uc131\uc788\ub294 \uc2e0\uc785\uc0dd&quot;,&quot;url&quot;:&quot;http:\/\/blog-hans.tistory.com&quot;,&quot;nickname&quot;:&quot;FreeMarket&quot;,&quot;items&quot;:[{&quot;title&quot;:&quot;\ud504\ub9ac\ub9c8\ucf1324&quot;,&quot;url&quot;:&quot;http:\/\/freemarket24.tistory.com&quot;,&quot;d&quot;:&quot;0&quot;,&quot;info&quot;:&quot;&quot;,&quot;iconurl&quot;:&quot;http:\/\/freemarket24.tistory.com\/favicon.ico&quot;}]}); return false;'></span></div>
+												<div class="date">
+													<a href="/360#comment10587059">2013/12/26 17:19</a>
+													<a href="#" onclick="deleteComment(10587059);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587059); return false">[Reply]</a>
+												</div>
+												<div class="reply">즐거움이 가득한 레스토랑 같네요 ㅎㅎ<br />
+잘 알아 갑니닷!!</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587117">
+											<div class="rp_general">
+												<div class="name"><a href="http://life-lineup.tistory.com" onclick="return openLinkInNewWindow(this)">+요롱이+</a></div>
+												<div class="date">
+													<a href="/360#comment10587117">2013/12/26 17:51</a>
+													<a href="#" onclick="deleteComment(10587117);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587117); return false">[Reply]</a>
+												</div>
+												<div class="reply">아아 좋은 곳이로군요!<br />
+소개해주셔서 감사합니다 ㅎ</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587133">
+											<div class="rp_general">
+												<div class="name"><a href="http://www.impactamin.com" onclick="return openLinkInNewWindow(this)">임팩타민</a></div>
+												<div class="date">
+													<a href="/360#comment10587133">2013/12/26 18:02</a>
+													<a href="#" onclick="deleteComment(10587133);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587133); return false">[Reply]</a>
+												</div>
+												<div class="reply">간판도 특이한데 ...<br />
+식당 내부는 더 특이하네요 ^^<br />
+이렇게 특별한 곳이 참 좋아요 ^^</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587339">
+											<div class="rp_general">
+												<div class="name"><a href="http://01047680992.tistory.com" onclick="return openLinkInNewWindow(this)">가을사나이</a><span class="tistoryProfileLayerTrigger" onclick='tistoryProfile.show(event, this, {&quot;title&quot;:&quot;\uae30\ub2e4\ub9bc\uc758 \ubbf8\ud559&quot;,&quot;url&quot;:&quot;http:\/\/happyqueen.tistory.com&quot;,&quot;nickname&quot;:&quot;\ud55c\uacbd\ub3c8\ud300\uc7a5&quot;,&quot;items&quot;:[]}); return false;'></span></div>
+												<div class="date">
+													<a href="/360#comment10587339">2013/12/26 20:34</a>
+													<a href="#" onclick="deleteComment(10587339);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587339); return false">[Reply]</a>
+												</div>
+												<div class="reply">청평으로 데이트하러 가고싶네요</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587443">
+											<div class="rp_general">
+												<div class="name"><a href="http://joaramission.tistory.com" onclick="return openLinkInNewWindow(this)">별이~</a></div>
+												<div class="date">
+													<a href="/360#comment10587443">2013/12/26 22:05</a>
+													<a href="#" onclick="deleteComment(10587443);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587443); return false">[Reply]</a>
+												</div>
+												<div class="reply">상당히 마음에 드는 레스토랑이네요^^ 잘보고갑니다^^<br />
+하루 마무리 잘하시고, 좋은 저녁되세요^^</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587979">
+											<div class="rp_general">
+												<div class="name"><a href="http://ptjey.com" onclick="return openLinkInNewWindow(this)">퍼스널트레이너제이</a><span class="tistoryProfileLayerTrigger" onclick='tistoryProfile.show(event, this, {&quot;title&quot;:&quot;VKNYGYM&quot;,&quot;url&quot;:&quot;http:\/\/vknygym.tistory.com&quot;,&quot;nickname&quot;:&quot;\ud2b8\ub808\uc774\ub108\uc81c\uc774&quot;,&quot;items&quot;:[{&quot;title&quot;:&quot;My view&quot;,&quot;url&quot;:&quot;http:\/\/v.daum.net\/my\/ptjey&quot;,&quot;d&quot;:&quot;1&quot;,&quot;info&quot;:&quot;view,ptjey&quot;,&quot;iconurl&quot;:&quot;&quot;},{&quot;title&quot;:&quot;twitter&quot;,&quot;url&quot;:&quot;http:\/\/twitter.com\/Trainer_Jey&quot;,&quot;d&quot;:&quot;1&quot;,&quot;info&quot;:&quot;twitter,Trainer_Jey&quot;,&quot;iconurl&quot;:&quot;&quot;}]}); return false;'></span></div>
+												<div class="date">
+													<a href="/360#comment10587979">2013/12/27 09:15</a>
+													<a href="#" onclick="deleteComment(10587979);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587979); return false">[Reply]</a>
+												</div>
+												<div class="reply">오!~~~ 완전 제스퇄!~ ^^ 나중에 함 가보고 싶습니다. ㅎㅎ 잘 보고 갑니다.^^ 즐겁고 행복한 하루 되세요^^ </div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10587999">
+											<div class="rp_general">
+												<div class="name"><a href="http://ptnet.tistory.com" onclick="return openLinkInNewWindow(this)">진율</a><span class="tistoryProfileLayerTrigger" onclick='tistoryProfile.show(event, this, {&quot;title&quot;:&quot;\uac74\uac15\ud558\uace0 \ubc14\ub974\uac8c...&quot;,&quot;url&quot;:&quot;http:\/\/ptnet.tistory.com&quot;,&quot;nickname&quot;:&quot;\uc9c4\uc728&quot;,&quot;items&quot;:[]}); return false;'></span></div>
+												<div class="date">
+													<a href="/360#comment10587999">2013/12/27 09:26</a>
+													<a href="#" onclick="deleteComment(10587999);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10587999); return false">[Reply]</a>
+												</div>
+												<div class="reply">빈티지 분위기 너무 쥑이네요^^~!</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10588016">
+											<div class="rp_general">
+												<div class="name"><a href="http://aaqq.tistory.com" onclick="return openLinkInNewWindow(this)">아쿠나</a></div>
+												<div class="date">
+													<a href="/360#comment10588016">2013/12/27 09:39</a>
+													<a href="#" onclick="deleteComment(10588016);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10588016); return false">[Reply]</a>
+												</div>
+												<div class="reply">청평 데이트코스를 알아보시는 분들에게 유용한 정보네요<br />
+잘보고가용^^<br />
+</div>
+											</div>
+											
+										</li>
+									
+										<li id="comment10588160">
+											<div class="rp_general">
+												<div class="name"><a href="http://nnkent11.tistory.com" onclick="return openLinkInNewWindow(this)">Q의 성공</a></div>
+												<div class="date">
+													<a href="/360#comment10588160">2013/12/27 11:38</a>
+													<a href="#" onclick="deleteComment(10588160);return false">[Edit/Del]</a>
+													<a href="#" onclick="commentComment(10588160); return false">[Reply]</a>
+												</div>
+												<div class="reply">청평 데이트코스 잘 알아 갑니다 ^^<br />
+알차게 하루를 보내세요~</div>
+											</div>
+											
+										</li>
+									
+								</ol>
+							
+						</div><!--//commentList-->
+									
+						<form method="post" action="/comment/add/360" onsubmit="return false" style="margin: 0">
+							<div class="commentWrite">
+								<h3></h3>
+								
+									
+										<p>
+											<input type="text" name="name" value="" class="input" onfocus="this.className='input_on'" onblur="this.className='input'" title="이름" />
+											Name <span class="point">__</span>
+										</p>
+										<p>
+											<input type="password" maxlength="8" name="password" value="" class="input" onfocus="this.className='input_on'" onblur="this.className='input'" title="비밀번호" />
+											Password <span class="point">__</span>
+										</p>
+										<p>
+											<input type="text" name="homepage" value="http://" class="input" onfocus="this.className='input_on'" onblur="this.className='input'" title="링크" />
+											Link (Your Website)
+										</p>
+									
+								
+								
+								<p>
+									<textarea name="comment" rows="10" cols="50" class="textarea" onfocus="this.className='textarea_on'" onblur="this.className='textarea'" title="댓글내용"></textarea>
+								</p>
+								<a onclick="addComment(this, 360); return false;" class="submit">Comment</a>
+								
+								<p class="secretWrap"> 
+									<input type="checkbox" name="secret" class="checkbox" title="비밀글 체크" />
+									SECRET | 비밀글로 남기기
+								</p>
+								
+							</div><!--//commentWrite-->
+						</form>
+				
+					</div><!--//comment-->
+				</div><script type="text/javascript">loadedComments[360]=true;highlight()</script>
+						
+			</div><!--//entry-->
+		
+		
+					 
+						<div id="paging" class="clearfix"> 
+							<a href='/361' class="prev"><span>Prev </span></a> 
+							<a href='/359' class="next"><span>Next</span></a> 
+							<p class="numbox"> 
+								 
+									<a href='/812' class="num"><span>1</span></a>								 <span class="interword">...</span>  
+									<a href='/364' class="num"><span>444</span></a>								 
+									<a href='/363' class="num"><span>445</span></a>								 
+									<a href='/362' class="num"><span>446</span></a>								 
+									<a href='/361' class="num"><span>447</span></a>								 
+									<a  class="num"><span class="selected" >448</span></a>								 
+									<a href='/359' class="num"><span>449</span></a>								 
+									<a href='/358' class="num"><span>450</span></a>								 
+									<a href='/357' class="num"><span>451</span></a>								 
+									<a href='/356' class="num"><span>452</span></a>								 <span class="interword">...</span>  
+									<a href='/1' class="num"><span>790</span></a>								 
+							</p> 
+						</div> 
+					 
+				
+	</div><!--//content-->
+	
+	<div id="sidebar">
+	
+	
+				<!--//공지사항//-->
+				
+				<div id="notice" class="module">
+					<ul>
+						
+					</ul>
+				</div>
+				
+			
+				<!--//카테고리//-->
+				<div id="category" class="module"> 
+					<h3><span class="subs">Category</span><span class="subj">Category</span></h3>
+					<div class="categoryBody">
+						<ul><li><a href="/category">분류 전체보기 <span class="c_cnt">(790)</span> <img src=http://i1.daumcdn.net/cfs.tistory/resource/1200/blog/image/category/new_ico_2.gif alt="N" style='vertical-align:middle;padding-left:2px;' /></a><ul><li><a href="/category/린미%27s%20life">린미's life <span class="c_cnt">(55)</span></a></li><li><a href="/category/린미%27s%20정보">린미's 정보 <span class="c_cnt">(219)</span></a><ul><li><a href="/category/린미%27s%20정보/건강/다이어트">건강/다이어트 <span class="c_cnt">(63)</span></a></li><li><a href="/category/린미%27s%20정보/패션/뷰티">패션/뷰티 <span class="c_cnt">(61)</span></a></li><li><a href="/category/린미%27s%20정보/도움되는%20정보">도움되는 정보 <span class="c_cnt">(94)</span></a></li></ul></li><li><a href="/category/린미%27s%20women">린미's women <span class="c_cnt">(6)</span></a></li><li><a href="/category/린미%27s%20금융">린미's 금융 <span class="c_cnt">(50)</span></a></li><li><a href="/category/린미%27s%20여행">린미's 여행 <span class="c_cnt">(157)</span></a><ul><li><a href="/category/린미%27s%20여행/제주도">제주도 <span class="c_cnt">(61)</span></a></li><li><a href="/category/린미%27s%20여행/국내여행">국내여행 <span class="c_cnt">(41)</span></a></li><li><a href="/category/린미%27s%20여행/마카오/홍콩%2013%27">마카오/홍콩 13' <span class="c_cnt">(8)</span></a></li><li><a href="/category/린미%27s%20여행/대만%2015%27">대만 15' <span class="c_cnt">(20)</span></a></li><li><a href="/category/린미%27s%20여행/베트남/싱가폴%2015%27">베트남/싱가폴 15' <span class="c_cnt">(17)</span></a></li></ul></li><li><a href="/category/린미%27s%20유럽%2814%27%29">린미's 유럽(14') <span class="c_cnt">(75)</span></a><ul><li><a href="/category/린미%27s%20유럽%2814%27%29/유럽준비">유럽준비 <span class="c_cnt">(8)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/런던">런던 <span class="c_cnt">(4)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/독일">독일 <span class="c_cnt">(6)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/체코">체코 <span class="c_cnt">(8)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/크로아티아">크로아티아 <span class="c_cnt">(14)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/이탈리아">이탈리아 <span class="c_cnt">(16)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/스위스">스위스 <span class="c_cnt">(12)</span></a></li><li><a href="/category/린미%27s%20유럽%2814%27%29/파리">파리 <span class="c_cnt">(7)</span></a></li></ul></li><li><a href="/category/린미%27s%20세상이야기">린미's 세상이야기 <span class="c_cnt">(43)</span></a><ul><li><a href="/category/린미%27s%20세상이야기/미디어">미디어 <span class="c_cnt">(24)</span></a></li><li><a href="/category/린미%27s%20세상이야기/이모저모">이모저모 <span class="c_cnt">(19)</span></a></li></ul></li><li><a href="/category/린미%27s%20맛있는이야기">린미's 맛있는이야기 <span class="c_cnt">(144)</span> <img src=http://i1.daumcdn.net/cfs.tistory/resource/1200/blog/image/category/new_ico_2.gif alt="N" style='vertical-align:middle;padding-left:2px;' /></a></li><li><a href="/category/린미%27s%20FUNfun">린미's FUNfun <span class="c_cnt">(37)</span></a></li><li><a href="/category/린미%27s%20Book">린미's Book <span class="c_cnt">(2)</span></a></li></ul></li></ul>
+					</div>
+				</div>
+			
+				<!--//최근에 올라온 글//--> 
+				<div id="recentPost" class="module"> 
+					<h3><span class="subs">Recent Post</span><span class="subj">Recent Post</span></h3>
+					<ul> 
+						 
+							<li> 
+								<a href="/812"> 이태원 심야식당 이태원탕에 반..  </a>
+								<span class="cnt"><span id="commentCountOnRecentEntries812">(5)</span></span>
+							</li>
+						 
+							<li> 
+								<a href="/811"> 팔당 아웃도어키친, 경치좋고..  </a>
+								<span class="cnt"><span id="commentCountOnRecentEntries811">(7)</span></span>
+							</li>
+						 
+							<li> 
+								<a href="/810"> 면목역 맛집, 등심이 살살녹는..  </a>
+								<span class="cnt"><span id="commentCountOnRecentEntries810">(8)</span></span>
+							</li>
+						 
+							<li> 
+								<a href="/809"> 프리메라 수분크림, 여름에 맞..  </a>
+								<span class="cnt"><span id="commentCountOnRecentEntries809">(6)</span></span>
+							</li>
+						 
+							<li> 
+								<a href="/808"> 친구생일선물 추천, 너무이쁜..  </a>
+								<span class="cnt"><span id="commentCountOnRecentEntries808">(10)</span></span>
+							</li>
+						
+					</ul>
+				</div>
+			
+				<!--//최근에 달린 댓글//--> 
+				<div id="recentComment" class="module"> 
+					<h3><span class="subs">Recent Comment</span><span class="subj">Recent Comment</span></h3>
+					<ul> 
+						
+							<li> 
+								<a href="/812#comment11223630">이태원에 이런 곳이 있었군요 </a>
+								<div class="name">// 땅이. <span class="date">16:09</span></div>
+							</li>
+						
+							<li> 
+								<a href="/812#comment11223623">이름이 이태원탕인가요?
+저는 처음에.. </a>
+								<div class="name">// 헬로끙이 <span class="date">15:56</span></div>
+							</li>
+						
+							<li> 
+								<a href="/812#comment11223543">요즘에 저런 메뉴판이 많이 생기는 것.. </a>
+								<div class="name">// 강냉이. <span class="date">13:07</span></div>
+							</li>
+						
+							<li> 
+								<a href="/812#comment11223458">비주얼이 짬뽕?? 똠양꿍? 같은 비주얼.. </a>
+								<div class="name">// 착한곰돌이 <span class="date">10:01</span></div>
+							</li>
+						
+							<li> 
+								<a href="/812#comment11223395">이태원탕 처음 보네요^^ </a>
+								<div class="name">// 몰드원 <span class="date">06:02</span></div>
+							</li>
+						
+					</ul>
+				</div>
+			
+				<!--//최근에 받은 트랙백//--> 
+				<div id="recentTrackback" class="module"> 
+					<h3><span class="subs">Recent Trackback</span><span class="subj">Recent Trackback</span></h3>
+					<ul> 
+						
+							<li> 
+								<a href="/550#trackback1886020">[남해맛집/가산식당] 보물섬미조멸.. </a>
+								<div class="name">// 워크뷰의 맛있는 도보여행 <span class="date">2014</span></div>
+							</li>
+						
+							<li> 
+								<a href="/378#trackback1844208">해외아동 결연후원 방법 소개 / 주.. </a>
+								<div class="name">// 에르차마토리 다이어리박스 <span class="date">2014</span></div>
+							</li>
+						
+							<li> 
+								<a href="/476#trackback1746883">제주도 여행: 지구관리대원님의 제.. </a>
+								<div class="name">// 한화리조트 공식블로그 <span class="date">2014</span></div>
+							</li>
+						
+							<li> 
+								<a href="/419#trackback1705522">노중훈 여행 칼럼니스트 '이국적인.. </a>
+								<div class="name">// 한화리조트 공식블로그 <span class="date">2014</span></div>
+							</li>
+						
+					</ul>
+				</div>
+			
+		<div class="tagbox">
+		<h3>Tag cloud</h3>
+		<div id="htags" style="display:none;"><tags> 
+		
+		<a href="/tag/개인회생" class="cloud1">개인회생</a>
+		
+		<a href="/tag/미미박스" class="cloud2">미미박스</a>
+		
+		<a href="/tag/대만" class="cloud2">대만</a>
+		
+		<a href="/tag/싱가폴" class="cloud2">싱가폴</a>
+		
+		<a href="/tag/스위스" class="cloud3">스위스</a>
+		
+		<a href="/tag/제주도%20여행" class="cloud3">제주도 여행</a>
+		
+		<a href="/tag/유럽여행" class="cloud3">유럽여행</a>
+		
+		<a href="/tag/크로아티아" class="cloud3">크로아티아</a>
+		
+		<a href="/tag/마카오여행" class="cloud3">마카오여행</a>
+		
+		<a href="/tag/제주도%20맛집" class="cloud3">제주도 맛집</a>
+		
+		<a href="/tag/제주도여행" class="cloud3">제주도여행</a>
+		
+		<a href="/tag/스플리트" class="cloud3">스플리트</a>
+		
+		<a href="/tag/이태원맛집" class="cloud3">이태원맛집</a>
+		
+		<a href="/tag/제주도" class="cloud4">제주도</a>
+		
+		<a href="/tag/신한은행" class="cloud4">신한은행</a>
+		
+		<a href="/tag/부산여행" class="cloud4">부산여행</a>
+		
+		<a href="/tag/가평펜션" class="cloud4">가평펜션</a>
+		
+		<a href="/tag/태그를%20입력해%20주세요." class="cloud4">태그를 입력해 주세요.</a>
+		
+		<a href="/tag/사가정맛집" class="cloud4">사가정맛집</a>
+		
+		<a href="/tag/홍대마사지" class="cloud4">홍대마사지</a>
+		
+		<a href="/tag/개인회생제도" class="cloud4">개인회생제도</a>
+		
+		<a href="/tag/대만여행" class="cloud4">대만여행</a>
+		
+		<a href="/tag/베네치아" class="cloud4">베네치아</a>
+		
+		<a href="/tag/가평펜션추천" class="cloud4">가평펜션추천</a>
+		
+		<a href="/tag/신한은행%20적금" class="cloud4">신한은행 적금</a>
+		
+		<a href="/tag/수분크림" class="cloud4">수분크림</a>
+		
+		<a href="/tag/장안동%20맛집" class="cloud4">장안동 맛집</a>
+		
+		<a href="/tag/베트남" class="cloud4">베트남</a>
+		
+		<a href="/tag/새마을금고%20금리" class="cloud4">새마을금고 금리</a>
+		
+		<a href="/tag/새마을금고" class="cloud4">새마을금고</a>
+		
+		<a href="/"></a></tags></div>
+		<div id="TiCumulus"><p>Tistory Cumulus Flash tag cloud by <a href="http://zoc.kr">BLUEnLIVE </a> requires Flash Player 9 or better.</p></div>
+		<script type="text/javascript" src="http://ts.daumcdn.net/custom/blog/87/877425/skin/images/swfobject.js"></script>
+		<script type="text/javascript">
+  var t = new SWFObject("http://ts.daumcdn.net/custom/blog/87/877425/skin/images/tagcloud.swf", "tagcloud", "100%", "200", "7", "#FFFFFF");
+  t.addVariable("tcolor", "0x222222");t.addVariable("hicolor", "0x3C5A91");t.addVariable("tcolor2", "0xF0E68C");
+  t.addVariable("mode", "tags");t.addVariable("distr", "true");t.addVariable("tspeed", "100");t.addParam("allowScriptAccess", "always");
+  t.addVariable("tagcloud", document.getElementById('htags').innerHTML.replace(/&amp;/gi, ' ').replace(/class=([\w]+)/gi, 'class="$1"').replace(/\"\"/gi, '"').replace(/class=\"/gi, 'style=\"font-size:').replace(/:cloud([\d])/gi, ':1$1pt;').replace(/TAGS\>/gi, 'tags>').replace(/\<A\s/gi, '<a ').replace(/\<\/A\>/gi, '</a>').replace(/\"/g, "'"));
+  t.write("TiCumulus");
+		</script>
+		</div>
+		
+				<!--//링크//-->
+				<div id="link" class="module">
+					<h3><span class="subs">Link</span><span class="subj">Link</span></h3>
+					<ul>
+						
+							<li>
+								<a href="http://mimu3.tistory.com" onclick="window.open(this.href); return false"> 히어로가 사는 법</a>
+							</li>
+						
+							<li>
+								<a href="http://seeit.kr" onclick="window.open(this.href); return false"> 하늘다래, 세상을 바라보다</a>
+							</li>
+						
+							<li>
+								<a href="http://ocer.kr" onclick="window.open(this.href); return false"> IT, 사진, 리뷰로 보는 세상 이야기</a>
+							</li>
+						
+							<li>
+								<a href="http://ddungchae.tistory.com" onclick="window.open(this.href); return false"> 뚱채어뭉+옆집아저씨+고회장님</a>
+							</li>
+						
+							<li>
+								<a href="http://mimi7292.tistory.com" onclick="window.open(this.href); return false"> 일상에서 행복찾기</a>
+							</li>
+						
+							<li>
+								<a href="http://clason.tistory.com" onclick="window.open(this.href); return false"> 나 몸냥 살켜</a>
+							</li>
+						
+							<li>
+								<a href="http://seotoonyong.tistory.com" onclick="window.open(this.href); return false"> 잡다지식오지랖스</a>
+							</li>
+						
+							<li>
+								<a href="http://dp1813.tistory.com" onclick="window.open(this.href); return false"> 감성인의 아파트 ver.2</a>
+							</li>
+						
+							<li>
+								<a href="http://" onclick="window.open(this.href); return false"> For Your Soul</a>
+							</li>
+						
+							<li>
+								<a href="http://une85.tistory.com" onclick="window.open(this.href); return false"> 달콤 정보지식 월드</a>
+							</li>
+						
+							<li>
+								<a href="http://romance7.tistory.com" onclick="window.open(this.href); return false"> 꾸리와 함께하는 시간</a>
+							</li>
+						
+							<li>
+								<a href="http://bbarae.tistory.com" onclick="window.open(this.href); return false"> 빠래의 리뷰세상</a>
+							</li>
+						
+							<li>
+								<a href="http://straum.tistory.com" onclick="window.open(this.href); return false"> 인생 즐겨찾기</a>
+							</li>
+						
+							<li>
+								<a href="http://gamefinkl.tistory.com" onclick="window.open(this.href); return false"> 비즈니스정의 쉬었다가세요</a>
+							</li>
+						
+							<li>
+								<a href="http://zot9.tistory.com" onclick="window.open(this.href); return false"> 삶의향기</a>
+							</li>
+						
+							<li>
+								<a href="http://whiteink.kr" onclick="window.open(this.href); return false"> 하얀잉크의 해피컨텐츠</a>
+							</li>
+						
+							<li>
+								<a href="http://review-in.tistory.com" onclick="window.open(this.href); return false"> 리뷰인사이트</a>
+							</li>
+						
+							<li>
+								<a href="http://backin79.tistory.com" onclick="window.open(this.href); return false"> 살찌고 살빼는 story</a>
+							</li>
+						
+							<li>
+								<a href="http://jinheebim.tistory.com" onclick="window.open(this.href); return false"> 사진이 부르는 노래</a>
+							</li>
+						
+							<li>
+								<a href="http://beintous.tistory.com" onclick="window.open(this.href); return false"> &quot;친구&quot; 그말이 정답이다</a>
+							</li>
+						
+							<li>
+								<a href="http://bmking2015.tistory.com" onclick="window.open(this.href); return false"> 블로그스토리</a>
+							</li>
+						
+							<li>
+								<a href="http://ofhealing.tistory.com" onclick="window.open(this.href); return false"> 기다리는이야기</a>
+							</li>
+						
+					</ul>
+				</div>
+			
+				<!--//카운터//--> 
+				<div id="counter"> 
+					<div class="total">Total <span class="counterNum">3,000,682</span></div>
+					<div class="anoday"><span class="today">Today <span class="counterNum2">2,269</span></span>
+					<span class="yesterday">Yesterday <span class="counterNum3">2,596</span></span></div>
+				</div>
+			
+		<div class="search">
+			
+				<input class="searchinput" type="text" name="search" onFocus="this.value=''" onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){} }" title="검색어를 입력하세요" /> <input value=" " class="submit" type="submit" onclick="try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){}" title="검색하기" />
+			
+		</div><!--//search-->	
+	</div>
+	<div id="footer">
+<div id="footertop"></div>
+		<div id="copyright">
+이 블로그는 마이크로소프트에서 제공하는 맑은고딕, 네이버에서 제공하는 <a href="http://hangeul.naver.com/share.nhn" target="_blank"><span class="nanum">나눔고딕</span></a> 글꼴을 사용합니다.
+<br />
+			This Blog is Powered by <a href="http://www.tistory.com" target="_blank"><span class="tistory">T</span>istory</a> and <a href="http://www.daum.net" target="_blank"><span class="daum1">D</span><span class="daum2">a</span><span class="daum3">u</span><span class="daum4">m</span></a>
+// Design by <a href="http://yongja.tistory.com" target="_blank"><span class="suspect">B</span>log Suspect</a> // Reform by <a href="http://lawlite.tistory.com" target="_blank"><span class="lawlite1">L</span><span class="lawlite2">a</span><span class="lawlite3">w</span><span class="lawlite4">l</span><span class="lawlite5">i</span><span class="lawlite6">t</span><span class="lawlite7">e</span></a>
+		</div>
+<div id="rssbutton">
+<a href="http://lynmi.tistory.com/rss" onclick="window.open(this.href); return false"><span><img src="http://ts.daumcdn.net/custom/blog/87/877425/skin/images/rss1.png" alt="RSS" /></span></a>
+</div>
+	</div><!--//footer-->
+
+</div><!--//container-->
+
+<script id="DragSearchJs" type="text/javascript" src="http://s1.daumcdn.net/img.search/front/js/searchDragSelection.js?nil_ch=tistory" charset="euc-kr"></script>
+<script type="text/javascript">if (asyncProfileItems) {tistoryProfile.getSidebarInfo(asyncProfileItems);}</script>
+<script charset="utf-8" type="text/javascript" src="http://m1.daumcdn.net/tiara/js/td.min.js"></script>
+
+<script type="text/javascript">
+//<!--<![CDATA
+	var __pageTracker = {};
+	if (typeof __Tiara != "undefined" && typeof __Tiara.__getTracker != "undefined") {
+		__pageTracker = __Tiara.__getTracker();
+	} else {
+		__pageTracker.__trackPageview = function() {};
+		__pageTracker.__addParam = function() {};
+		__pageTracker.__setTitle = function() {};
+	}
+
+	__pageTracker.__setTitle("린미의 놀이터 :: 청평데이트코스, 라이크디스 레스토랑 추천!");
+	__pageTracker.__addParam("svcdomain","user.tistory.com");
+	__pageTracker.__addParam("category","");
+	__pageTracker.__addParam("articleno","360");
+	__pageTracker.__addParam("plink","http://lynmi.tistory.com/360");
+	__pageTracker.__addParam("date","2013-12-26 15:40:50");
+	__pageTracker.__addParam("author","lynmi");
+	__pageTracker.__addParam("length ","11436");
+	__pageTracker.__addParam("isauthor","N");
+	__pageTracker.__addParam("ishidden","1");
+	__pageTracker.__addParam("comments","9");
+	__pageTracker.__addParam("param1","0");
+	__pageTracker.__addParam("param2","e");
+	__pageTracker.__addParam("param3","");
+	__pageTracker.__addParam("like_ex", "{\"serviceId\": \"tistory\", \"uniqueId\": \"877425_360\", \"serviceCategories\": \"204,blogId_877425\"}");
+
+	window.setTimeout("try { __pageTracker.__trackPageview('http://lynmi.tistory.com/360'); } catch(e) {}", 1);
+//]]>-->
+</script>
+
+<script type="text/javascript">
+window.roosevelt_params_queue = window.roosevelt_params_queue || [];
+window.roosevelt_params_queue.push({
+	channel_id: "dk", channel_label: "tistory"
+});
+</script>
+<script type="text/javascript" src="//adimg.daumcdn.net/rt/dk_bt/roosevelt_dk_bt.js" async></script><div id="tistorytoolbarid" style="position:absolute;height:20px;top:4px;right:0px;background-color:transparent;background-image:none;z-index:11;">
+	<div class="tistorytoolbar tt_menubar_login">
+		<div class="tt_menubar_white">
+			<div id="ttMenubarInnerWrap" class="tt_menubar_inner">
+				<div class="tt_menubar_bg_toolbar"></div>
+				<h2 style="display:none;">티스토리 툴바</h2>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_daum tt_menubar_link_tit_eng" href="http://www.daum.net/?nil_ref=tistory" target="_blank">Daum</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_eng" href="http://www.tistory.com">Tistory</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_logout"><a class="tt_menubar_link_tit" href="https://www.tistory.com/login">로그인</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

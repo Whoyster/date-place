@@ -1,0 +1,992 @@
+
+
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+
+
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi">
+
+<meta name="robots" content="index,follow"/>
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1">
+
+<link rel="apple-touch-icon-precomposed" href="/mobileweb_icon_96.png" />
+
+<link rel="stylesheet" type="text/css" href="http://t.static.blog.naver.net/nmobile/versioning/style2014_w-182263.css" charset="UTF-8" />
+<style>
+	div.spi_unity {
+		width:291px;
+	}
+</style>
+
+
+	
+		
+	
+	
+
+
+<meta class="_og_tag _title" property="og:title"
+	content="청평 분위기있는 카페 델씨엘로 더치커피 맛있어요" />
+<meta class="_og_tag _description" property="og:description"
+	content="청평 분위기있는 카페를 발견하다!!       가평 날로먹는캠핑 주변에는 각종 수상레져는 물론이고 아침고요수목원,남이섬,자라섬,쁘띠프랑스등등...   유명한 데이트코스와..." />
+<meta class="_og_tag _url" property="og:url"
+	content='http://blog.naver.com/807ljs/220040375440' />
+<meta class="_og_tag _image" property="og:image"
+	content="http://blogthumb2.naver.net/20140624_89/807ljs_1403606052633PFmjj_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%285%29.JPG?type=w2" />
+<meta class="_og_tag _author" property="og:article:author"
+	content="네이버 블로그 | 날로먹는캠핑" />
+<meta property="og:type" content="website" />
+<meta property="me:feed:serviceId" content="blog" />
+<meta name="format-detection" content="telephone=no" />
+
+
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/nmobile/versioning/CommonJS-1885371.js" charset="UTF-8"></script>
+<script type="text/javascript">
+jindo.m.patch("1.12.0").add({
+    "useTimingFunction" : function() {
+        var htOsInfo = jindo.m.getOsInfo();
+        if (htOsInfo.ios && parseInt(htOsInfo.version, 10) >= 6) {
+            return -1;
+        }
+    }
+});
+/* flicking 개선 start*/
+/* var fOldFlickTouchStartImpl = jindo.m.Flick.prototype._startImpl;
+var fOldSlideFlickMoveAfterCall = jindo.m.SlideFlicking.prototype._moveAfterCall;
+var fOldFlickTouchEndImpl = jindo.m.Flick.prototype._endImpl;
+var bTouchMoved = false;
+
+jindo.m.Flick.prototype._startImpl = function(we){
+	this.nStartX = we.nX;
+	bTouchMoved = false;
+	fOldFlickTouchStartImpl.apply(this, [we]);
+}
+
+jindo.m.SlideFlicking.prototype._moveAfterCall = function(we){
+	 if(Math.abs(this.nStartX  - we.nX) < this.getSensitivity() && !bTouchMoved){
+		return;
+	}; 
+	bTouchMoved = true;
+	fOldSlideFlickMoveAfterCall.apply(this, [we]);
+}
+
+jindo.m.Flick.prototype._endImpl = function(we){
+	bTouchMoved = false;
+	fOldFlickTouchEndImpl.apply(this, [we]);
+}
+
+jindo.m.Flick.prototype.setSensitivity = function(nFlickingSensitivity){
+	this.nFlickingSensitivity =  nFlickingSensitivity;
+}
+
+jindo.m.Flick.prototype.getSensitivity = function(){
+	return this.nFlickingSensitivity;
+} */
+
+/* flicking 개선 end*/
+$Event.prototype.getEventElement = function(sTargetTagName, sTargetClassName, nMaxDepth) {
+	var el = this.element;
+	var wel = $Element(this.element);
+
+	var sTagName = 'a|button';
+	var sClassName = null;
+	
+	var nDepth = typeof nMaxDepth == 'undefined' ? 5 : nMaxDepth;
+	
+	if (typeof el.tagName == "undefined") return wel;
+	if (typeof sTargetTagName != "undefined") sTagName = sTargetTagName;
+	if (typeof sTargetClassName != "undefined") sClassName = sTargetClassName;
+	
+	var oTagNameRegex = new RegExp("^(" + sTagName + ")$", "i");
+	if (oTagNameRegex.test(el.tagName) && (sClassName == null || wel.hasClass(sClassName))) {
+		return wel;
+	} else {
+		var welParents = wel.parent(function(v) {
+			if (v.$value().nodeType != 1) {
+				return false;
+			}
+			
+			if (sTargetClassName) {
+				return oTagNameRegex.test(v.$value().tagName) && v.hasClass(sClassName);
+			}
+			
+			return oTagNameRegex.test(v.$value().tagName);
+		}, nDepth);
+		
+		return welParents != null && welParents.length > 0 ? welParents[0] : wel;
+	}
+}
+
+
+var doc = document.documentElement;
+doc.setAttribute('data-useragent',navigator.userAgent);
+
+var blogOwner = false;
+var rightClickOpenYn = true;
+var lcs_SerName = "lcs.naver.com";
+var isJeagleDebug = false;
+
+window.onerror = jeagleEyeUtil.nvl_error;
+
+/* window.onerror = function(msg, url, line) {
+   alert("Error: " + msg + "\nurl: " + url + "\nline #: " + line);
+}; */
+</script>
+<link type="text/css" rel="stylesheet" href="http://blog.like.naver.com/css/list/mobile/likeit_blog.css" charset="utf-8">
+<link type="text/css" rel="stylesheet" href="http://blog.like.naver.com/css/list/mobile/likeit.css" charset="utf-8">
+<title>청평 분위기있는 카페 델씨엘로 더치커피 맛있어요 : 네이버 블로그</title>
+
+<script language="javascript" src="http://serviceapi.nmv.naver.com/resources/lang/js/ugcvideoplayer-1.0.js"></script>
+<script type="text/javascript">
+
+window.onerror = function() {
+	loadImgAndVideo();
+}
+function loadImgAndVideo() {
+	var oImgAndVideoHandler;
+	if (document.readyState == "complete") {
+		
+		oImgAndVideoHandler = new ImgAndVideoHandler(function(){});
+		oImgAndVideoHandler.loadOnError();
+	} else {
+		window.onload = function() {
+			oImgAndVideoHandler = new ImgAndVideoHandler(function(){});
+			oImgAndVideoHandler.loadOnError();
+		}
+	}
+}
+</script>
+</head>
+<body id="body" class="tablet_end" >
+
+    
+    
+	<div id="quick_menu" class="quick_menu">
+		<div class="scroll">
+			<h1 class="logo">
+				<a href="http://m.naver.com" class="naver" onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.naver', '', ''); nsc=t"><span class="sim">NAVER</span></a>
+				<a class="blog"><span class="sim">블로그</span></a>
+	        </h1>
+			<ul>
+				
+				<li>
+					
+					
+					
+					
+					
+					<a href="#" class="btn_menu btn_bloghome _btn_menu _param(/Index.nhn) _returnFalse" onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.home', '', ''); nsc=t" >
+						<span class="ico"><span class="sim"></span></span>
+						<span class="txt">블로그홈</span>
+					</a>
+				</li>
+				
+				<li>
+					
+					
+					
+					
+					
+					<a href="#" class="btn_menu btn_buddyset _btn_menu _param(/GoMyBuddyList.nhn) _returnFalse" onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.ngr', '', ''); nsc=t" >
+						<span class="ico"><span class="sim"></span></span>
+						<span class="txt">이웃관리</span>
+					</a>
+				</li>
+				
+				<li>
+					
+					
+					
+					
+					
+					<a href="#" class="btn_menu btn_write _btn_menu _param(/GoWriteForm.nhn) _returnFalse" onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.write', '', ''); nsc=t" >
+						<span class="ico"><span class="sim"></span></span>
+						<span class="txt">글쓰기</span>
+					</a>
+				</li>
+				
+				<li class="myblog">
+					
+						
+						
+											
+					<a class="btn_myblog btn_menu _btn_menu  _param(/GoMylog.nhn) _returnFalse"  onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.any', '', ''); nsc=t" href="#">
+					<span class="ico">
+					
+					<span class="sim"></span></span>
+					<span class="txt">내블로그</span>
+					</a>
+					
+						
+						
+							<a href="#" class="name btn_myblog btn_menu _btn_menu  _param(/GoMylog.nhn) _returnFalse"><span class="ell">내블로그</span></a>
+							<span class="num">로그인 하세요</span>
+						
+					
+				</li>
+			</ul>
+			<a class="btn_close _btn_close_qmenu" onclick="var t = nsc; nsc='Mblog.home'; nclk(this, 'qmn.close', '', ''); nsc=t"><span class="sim">퀵메뉴 닫기</span></a>
+			<span class="bg_thumb" style=""></span>
+		</div> 
+	</div>
+<script type="text/javascript">
+var bLoginUser = false;
+var gsUserblogId="";
+var gsLocationOrigin = "http://m.blog.naver.com";
+var loginCurrentFullUrl ="";
+var logoutCurrentFullUrl = "";
+var gbQuickMenuOpen = false;
+
+var CommonQuickMenuLayerController = $Class({
+	$init : function(){
+	},
+	
+	start : function(){
+		this.paramUtil = new ParamUtil();
+		this._setEvent();
+		this._getTodayVisit();
+		
+	},
+	
+	_setEvent : function(){
+		$Fn(this._doClick, this).attach($$('.btn_menu'), "click");
+		$Fn(this._doClick, this).attach($$('._btn_close_qmenu'), "click");
+	},
+	
+	_doClick : function(oEvent){
+		var wel = oEvent.getEventElement();
+		
+		if (wel.hasClass("_btn_menu")) {
+			this._goRedirectUrl(paramUtil.getParam(wel.className()));	
+		} else if (wel.hasClass("_btn_close_qmenu")) {
+			gbQuickMenuOpen = false;
+			$Element("btn_q").removeClass("on");
+			$Element($$.getSingle("._header")).removeClass("on");
+			$Element("ct").removeClass("on");
+			$Element("quick_menu").removeClass("on");
+			$Element("body").removeClass("on");
+			var welFooter = $Element($$.getSingle("._commonFooter"));
+			if (welFooter) {
+				welFooter.removeClass("on");
+			}
+			// 개별블로그 메인에만 cover가 존재함
+			if ($Element("cover")) {
+				$Element("cover").removeClass("on");
+			}
+		}
+		
+		if (wel.hasClass('_returnFalse')) {
+	    	oEvent.stop();
+	    }
+	},
+	
+	_getTodayVisit : function() {
+		if (gsUserblogId == "") {
+			return;
+		} 
+		
+		if (window.innerWidth < 786 && window.innerHeight < 786) {
+			return;
+		}
+		
+		var param = {'blogId' : gsUserblogId};
+		var oAjax = $Ajax("/QuickMenuAsync.nhn", {
+			onload: $Fn(function(o){
+				var oResponse = $Json(o.json()).toObject();
+				if (oResponse.result) {
+					$("todayVisit").innerHTML = "Today " + oResponse.result.visitCount;
+					return;
+				}
+				
+			}, this).bind()
+		});
+		oAjax.request(param);
+	},
+	
+	_goRedirectUrl : function(params){
+		if(params.length){
+			if(params[0] !== "/Index.nhn" && !bLoginUser ){
+				loginCurrentFullUrl = gsLocationOrigin + params[0];
+				loginUtil.login();
+				return;
+			}
+			location.href=params[0];
+		}
+	}
+	
+});
+
+var commonQuickMenuLayerController = new CommonQuickMenuLayerController();
+commonQuickMenuLayerController.start();
+</script>
+
+<header role="banner">
+<div class="header _header" id="_view_header" style="z-index:3000;">
+	<div class="header_t1" id="_header_btn">
+		<a id="btn_q" class="btn_q _returnFalse" onclick="nclk(this, 'pgn.qmenu', '', '');" >
+			<span class="sim">퀵메뉴 열고 닫기</span>
+			
+		</a>
+		<h2 class="tit_h2 _cur_category">
+			<a id="_categoryName" class="header_tit _cur_category _returnFalse" onclick="nclk(this, 'pgn.blogname', '', '');">
+				<span id="_header_categoryName" class="ell">날로먹는캠핑</span>
+				<span class="sim">카테고리 레이어 열고 닫기</span>
+			</a>
+		</h2>
+		<div class="header_btn">
+			<a href="/PostSearchList.nhn?blogId=807ljs" class="btn_srch" onclick="nclk(this, 'pgn.search', '', '');"><span class="sim">검색</span></a>
+		</div>
+	</div>
+	<div id="_div_categorylist" class="lyr_t1">
+		<div id="_postview_loading" style="position:absolute; text-align:center; top:115px; width:100%; z-index:3000;"><span class="img_loading sim">로딩중</span></div>
+		<div id="_categorylist_dimmed" class="dimmed"></div>
+		<div id="_scroll_area" class="lst_w">
+			<div style="width:100%">
+				<ul id="_ul_categorylist" class="lst_t4"></ul>
+			</div>
+		</div>
+		<span id="gra" class="gra"></span>
+	</div>
+</div>
+</header>
+
+<div id="post_share" style="position:absolute;top:50px;display:none;z-index:2000;right:15px">
+	<div id="spiLayer"></div>
+</div>
+
+
+<div id="_post_area" class="ct_wrap">
+	<div id="ct" class="end" role="main">
+		<div id="mflick" class="mflick">
+		    <div class="flick-container">
+		        <div class="flick-ct" >
+		        </div>
+		        <div class="flick-ct" >
+		            
+					
+
+
+
+
+<div id="_post_property" style="display:none"
+commentCount="14"
+blockType="0"		
+isBlacklistUser="false"	
+blogName="날로먹는캠핑"
+commentEnable="true"
+categoryNo="11"
+logType="0"
+addDate="1403613894400"
+hasNaverMap="true"
+gdid="90000003_00000000000000333B6DAC90"
+browserTitle="청평 분위기있는 카페 델씨엘로 더치커피 맛있어요 : 네이버 블로그"
+isRecommendedBlog="false"
+></div>
+<div class="_postView">
+	<!-- 폰트 사이즈 셋팅 -->
+	
+	
+		
+		
+		
+		
+		
+		
+	
+
+	
+	<div class="post_tit_area">
+		
+		<strong class="tit_category"><a href="/PostList.nhn?blogId=807ljs&categoryNo=11&logCode=0&categoryName=%EB%82%A0%EC%BA%A0+%EA%B0%80%ED%8F%89" onclick="nclk(this, 'pst.board', '', '');" class="_categoryName">날캠 가평</a></strong>
+		
+			
+			
+			
+			
+		
+		
+		
+		<div class="tit_area ">
+			<h3 class="tit_h3">청평 분위기있는 카페 델씨엘로 더치커피 맛있어요  
+				
+			</h3>
+			<a  class="btn_reply _comment_count" id="_comment_count" onclick="nclk(this, 'pst.repn', '', '');" ><span class="blind">덧글</span><span class="_show_comment_count">14</span><span class="sim"></span></a>
+		</div>
+		<div class="dsc">
+			<span class="txt"><a href="/PostList.nhn?blogId=807ljs" onclick="nclk(this, 'pst.writer', '', '');">날로먹는캠핑</a>
+				
+			    
+					
+						 
+						 
+						
+							
+							
+							
+						
+					
+					
+						<a href="#" class=" btn_buddyadd _add_buddy _param(807ljs|false||/BuddyAddForm.nhn) _returnFalse" isBlackUser="false" onclick="nclk(this, 'pst.add', '', '');" ><span class="sim">이웃추가</span></a>
+					 <!-- 주인이 아니면  -->
+				
+			</span> <span class="bar">|</span> <em class="num">2014.06.24. 21:44</em>
+		</div>
+		<div class="dsc2">
+			<a class="btn_app _app_ad_btn _param(postView|220040375440|807ljs) _returnFalse" onclick="nclk(this, 'pst.aview', '', '');"><span class="ico_blogapp sim"></span> 앱으로 보기 <span class="bu_arr sim"></span></a>
+			
+			<!-- 본문 기타 기능 -->
+				<div class="post_function_t1">
+					<button type="button" class="btn_function _btn_tools" onclick="nclk(this, 'pst.func', '', '');"><span class="sim">본문 기타 기능</span></button>
+					<div class="lyr_post_function" id="_tools_layer" style="display:none">
+						<ul>
+							<li class="font_size">
+								<strong class="blind">본문 폰트 크기 조정</strong>
+								<button type="button" class="btn_font_s _smallFont " id="moreSmall" onclick="nclk(this, 'pst.ftxts', '', '');"><span class="sim">본문 폰트 크기 작게 보기</span></button>
+								<button type="button" class="btn_font_b _bigFont " id="moreBig" onclick="nclk(this, 'pst.ftxtl', '', '');"><span class="sim">본문 폰트 크기 크게 보기</span></button>
+								<span class="size " id="font_size">가</span>
+							</li>
+						
+							
+							<li>
+								<div class="btn_like_w like_btn">
+									<span class="txt">공감하기</span>
+									<!-- [D]  좋아요 시스템 -->
+										<div class="u_likeit_list_module">
+											<a href="#" class="u_likeit_list_btn u_type_img u_none_txt" data-sid="BLOG" data-did="BLOG" data-cid="807ljs_220040375440" data-likeit="0"><span class="u_ico"></span><em class="u_txt"></em><em class="u_cnt"></em></a>
+										</div>
+									<!-- //[D]  좋아요 시스템 -->
+								</div>
+							</li>
+						
+							<li><a href="#" class="naver-splugin _returnFalse" onclick="nclk(this, 'pst.fshare', '', '');"
+								data-style="standard"
+								data-url="http://m.blog.naver.com/PostView.nhn?blogId=807ljs&logNo=220040375440"
+								data-title="청평 분위기있는 카페 델씨엘로 더치커피 맛있어요"
+								data-oninitialize="splugin_oninitialize();"
+							>공유하기 <span class="share sim"></span></a></li>
+							<li><a href="#" class="_copy_url _returnFalse" onclick="nclk(this, 'pst.furl', '', '');">URL복사 <span class="copy sim"></span></a></li>
+						
+						</ul>
+					</div>
+				</div>
+			<!-- //본문 기타 기능 -->
+		</div>
+	</div>
+	
+
+	
+	<div class="post_ct " id="viewTypeSelector">
+		
+		
+
+		
+
+		
+		
+
+		
+		 <p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><span style="font-size:14pt;COLOR: #009e25;" _foo="FONT-SIZE: 14pt; COLOR: #009e25"><strong>청평 분위기있는 카페를 발견하다!!</strong></span></p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">가평 날로먹는캠핑 주변에는 각종 수상레져는 물론이고 아침고요수목원,남이섬,자라섬,쁘띠프랑스등등...</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">유명한 데이트코스와 맛집들이 20분 거리안에 포진되어 있습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">캠핑,글램핑 오셨다가 많이들 방문하시기도 합니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">그래서인지 주말이면 가평쪽으로 오고 가시는분들로 인해 도로가 막히죠</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">그길목에 분위기있는 카페가 얼마전에 생겼네요</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">길이막힌다고 짜증내지 마시고 잠깐 쉬어가면서 휴식을 취하는것도 좋겠습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_297/807ljs_1403606051673X73rL_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%284%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">주말이랑은 다르게 평일이라 도로가 한산하네요</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">이런날은 서울까지 한시간도 안걸립니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_89/807ljs_1403606052633PFmjj_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%285%29.JPG?type="></span><br style="" _foo="CLEAR: both" />청평 분위기있는 카페 델씨엘로 입니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_147/807ljs_14036065345741Fwfq_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%286%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_217/807ljs_14036060537083fUt9_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%289%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">입구에 들어서니 분위기 있어보이는분 한분이 자리잡고 있네요</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">알고보니 35년의 커피경력을 자랑하시는분 이셨습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_215/807ljs_1403606054118exgKh_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%287%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_194/807ljs_1403606054684LT0PW_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%288%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">입장합니다잉~</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_64/807ljs_1403606055051OFzxV_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2810%29.JPG?type="></span><br style="" _foo="CLEAR: both" />청평 분위기있는 카페 델씨엘로 내부입니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_43/807ljs_1403606055576iqoOv_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2811%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_85/807ljs_1403606056028eSRaR_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2812%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_62/807ljs_1403606056480OiTrF_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2813%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_99/807ljs_1403606057295KaDzl_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2821%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_59/807ljs_1403606057850dBtmQ_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2822%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">사람없을땐 잠깐 누울수도 있겠어요 </p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_271/807ljs_1403606058372YhtdG_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2823%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_74/807ljs_1403606058762O6S8y_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2824%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_195/807ljs_1403606059296L3u7W_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2825%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_86/807ljs_1403606059843BoS3c_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2842%29.JPG?type="></span><br style="" _foo="CLEAR: both" />내부가 꽤나 넓습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_126/807ljs_1403606060288GUodG_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2814%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">아까 그분... 소재정 선생이시군요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_281/807ljs_1403606060705d3QFq_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2815%29.JPG?type="></span><br style="" _foo="CLEAR: both" />청평 분위기있는 카페 델씨엘로의 메뉴입니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">커피라고는 추울땐 따뜻한 아메리카노 더울땐 아이스 아메리카노만 마시는 저는</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">메뉴판을 보고 당황하지 않을수 없었습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">커피의 종류와 가격 ㅋㅋㅋ </p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">그래도 무슨맛인지도 모르고 가격보고 우왁 소리나는 루왁커피도 마셔본 저는 많은 사람들 앞이라 촌스럽게 당황하지않고~~</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">가요마운틴 2잔,핸드드립 더치커피 5잔을 주문했어요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_23/807ljs_1403606061116TNPNL_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2816%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_54/807ljs_1403606061603ADlkp_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2817%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_57/807ljs_1403606062054jhJw1_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2818%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_135/807ljs_1403606062558AgVYL_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2819%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_140/807ljs_14036060630726njI7_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2820%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">커피말고도 다양한 메뉴가 준비되어 있습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_245/807ljs_1403606063646sUGAJ_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2826%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_148/807ljs_1403608218521Xqa3v_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2827%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">3명이 웃는걸보니 뭔가 재미있는 얘기를 하는거같아요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_72/807ljs_1403608348958KFuKJ_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2828%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">제가 껴드니 두명만 웃네요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_119/807ljs_1403609630222Vhqkp_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2829%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">드디어 가요마운틴이&nbsp;도칙했습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_73/807ljs_1403606065514hoTPs_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2830%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">음...뭔가 있어보이네요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_219/807ljs_1403606066168UoOVD_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2831%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">커피경력 35년 소재정 선생께서 직접오셨습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_285/807ljs_1403609562280nXuQv_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2832%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_263/807ljs_1403609475976EmumY_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2833%29.JPG?type="></span></p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">소재정 선생의 눈부신 활약에 눈이 부신가봅니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_162/807ljs_1403609885918PRggu_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2834%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_247/807ljs_1403606069015iaHbl_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2837%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_229/807ljs_1403606069602ddlQx_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2838%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_48/807ljs_14036060702258y1fS_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2839%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">자~</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">가요마운틴이 완성되었어요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_165/807ljs_14036100385162CoJQ_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2840%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">실내에서 썬글라스를 두개나 쓰고 가요마운틴을 음미하고 있습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">저도 한모금해보니 약~간 둥굴레차맛??ㅋㅋ</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">암튼 비싼맛 입니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_41/807ljs_1403606071509Ors7v_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2841%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">이번 생일선물로 큰맘먹고 미리사준 크롬하츠 팔찌</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">3년전부터 하나하나 주고받고 사모으고 있네요</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">조만간 따로 포스팅할 예정입니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_147/807ljs_1403606072072K9uDx_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2835%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_188/807ljs_1403606072785XKYut_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2836%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">제가 마실 시원한 더치커피가 왔습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">이건 살짝 와인향이 나네요 굿~~!!</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_46/807ljs_1403606073378dxzMF_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2843%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">커피 다마시고 밖으로 나왔습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">솔직히 델씨엘로 건물과 내부는 분위기가 좋은데 주변경관과는 어우러지지않는것 같습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">주변은 그냥 변두리 시골도로 분위기...</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">그래서 더 돋보일수도 있겠네요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_17/807ljs_1403606074048O40bD_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2844%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_62/807ljs_14036060747012OazF_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2845%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb3.phinf.naver.net/20140624_42/807ljs_1403606075323ySwdu_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2846%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">저기 혼자 이상하게 서있는 아이는</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">중국유학 갔다온 한예슬 닮은 이쁜 아이예요</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">남친을 구하고 있으니 관심있는 남자분은 저에게로 연락바랍니다</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_148/807ljs_1403612448539B5GgV_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2847%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_267/807ljs_1403612564977HnCfJ_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2848%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">한모금도 안되는거 하루종일 마실셈이야??</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_207/807ljs_1403606077586DJ8aX_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%282%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb2.phinf.naver.net/20140624_197/807ljs_1403606078275J09J4_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%281%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_171/807ljs_1403606078964htBgu_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2849%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb4.phinf.naver.net/20140624_283/807ljs_140360608004035VDU_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%2850%29.JPG?type="></span>&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">화보촬영이 길어지고 있네요</p><p style="" _foo="TEXT-ALIGN: center" align="center"><br style="" _foo="CLEAR: both" /><span class="_img _inl fx" thumburl="http://mblogthumb1.phinf.naver.net/20140624_264/807ljs_14036060807561eDGq_JPEG/%C3%BB%C6%F2_%BA%D0%C0%A7%B1%E2%C0%D6%B4%C2_%C4%AB%C6%E4_%B5%A8%BE%BE%BF%A4%B7%CE_%B4%F5%C4%A1%C4%BF%C7%C7_%B8%C0%C0%D6%BE%EE%BF%E4_%283%29.JPG?type="></span></p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">짜증이빠이 내고있죠??</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">이만 가봐야겠습니다</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">암튼 델씨엘로 분위기 좋았어요~~!!<span style="COLOR: #ff0000;" _foo="COLOR: #ff0000">&#65279;</span></p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center"><span class="_naverVideo _vnl" vid="0841909DD73F8CFDDB9408BA95D58F5A04AF" key="V12969311689a02f32392bb9ead3d6b3a7a4a26e4ac1197ccbdd6e86144512a599379bb9ead3d6b3a7a4a" outKeyMode="false"></span></p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><div align="center"><div class="map">
+<p class="tit">카페델씨엘로</p>
+<p id="mapTitle_bl019191441" class="address">경기도 가평군 청평면</p>
+<div id="naverMap_bl019191441" class="map_sr">
+<img src="http://mashup.map.naver.net/mashupmap/deco?mid=bl019191441&w=280&h=173" width="280" height="174" alt="카페델씨엘로" style="">
+</div>
+</div>
+<span style="display:none;" class="_mapInfo">{mapId: "bl019191441", placeId: "34790398", type:"1", title:"카페델씨엘로", pointX:349278,pointY:570865}</span></div><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p><p style="" _foo="TEXT-ALIGN: center" align="center">&nbsp;</p>
+	</div>
+
+	
+	
+	
+	
+	
+	
+		
+		<div class="post_tag ">
+			<ul>
+				
+					<li><a href="/BlogTagView.nhn?blogId=807ljs&logNo=220040375440&tagName=%EC%B2%AD%ED%8F%89%EB%B6%84%EC%9C%84%EA%B8%B0%EC%9E%88%EB%8A%94%EC%B9%B4%ED%8E%98&page=1" onclick="nclk(this, 'pst.tag', '', '');"><span class="ell">#청평분위기있는카페</span></a></li>
+				
+					<li><a href="/BlogTagView.nhn?blogId=807ljs&logNo=220040375440&tagName=%EC%B2%AD%ED%8F%89%EA%B0%80%EB%B3%BC%EB%A7%8C%ED%95%9C%EA%B3%B3&page=1" onclick="nclk(this, 'pst.tag', '', '');"><span class="ell">#청평가볼만한곳</span></a></li>
+				
+			</ul>
+		</div>
+		
+	
+	
+	
+
+	
+	
+	
+	<div class="post_writer">
+		<span class="thumb"><a href="/807ljs" onclick="nclk(this, 'pst.owner', '', '');"><span class="img"><img src="http://blogpfthumb.phinf.naver.net/20140603_144/807ljs_1401793984172e8Rev_JPEG/PA050071.jpg?type=s1" width="43" height="43" alt="섬네일"></span>
+			</a></span>
+		<span class="txt">
+		<strong class="writer"><a href="/807ljs" onclick="nclk(this, 'pst.owner', '', '');">날로먹는캠핑</a></strong>
+
+		
+			
+			 
+			 
+			<a href="#" class="btn_buddy add _add_buddy _param(807ljs|false||/BuddyAddForm.nhn) _returnFalse" isBlackUser="false" onclick="nclk(this, 'pst.wadd', '', '');"><span class="sim"></span> 이웃<span class="blind">추가</span></a>
+		
+			<span class="dsc">
+ 				
+ 					
+ 					
+ 						날로먹는캠핑
+ 					
+ 				
+ 			</span>
+		</span>
+		
+	</div>
+	
+	
+	  <div class="section_t1">
+	  	<!-- 좋아요 -->
+	  	
+		  	<div class="btn_like_w">
+				<div class="btn_like">
+				<!-- [D]  좋아요 시스템 -->
+					<div class="u_likeit_list_module">
+						<a href="#" class="u_likeit_list_btn u_type_img u_none_txt" data-sid="BLOG" data-did="BLOG" data-cid="807ljs_220040375440" data-likeit="0" _returnFalse><span class="u_ico"></span><em class="u_txt"></em><em class="u_cnt"></em></a>
+					</div>
+				<!-- //[D]  좋아요 시스템 -->
+				</div>
+				<a href="/SympathyHistoryList.nhn?blogId=807ljs&logNo=220040375440" class="btn_like_more" onclick="nclk(this, 'pst.liken', '', '');"><span class="sim">좋아요 한 사람 보러가기</span></a>
+			</div>
+	  	
+	  	<!-- //좋아요 -->
+	     
+	     	<a href="/CommentList.nhn?blogId=807ljs&logNo=220040375440" class="btn_reply" onclick="nclk(this, 'pst.ren', '', '');">
+	        
+	        <span class="sim ico">덧글</span> <em>14</em> 
+	     </a>
+	     
+		
+		<a class="naver-splugin btn_share _returnFalse" onclick="nclk(this, 'pst.share', '', '');"
+			data-style="standard"
+			data-url="http://m.blog.naver.com/PostView.nhn?blogId=807ljs&logNo=220040375440"
+			data-title="청평 분위기있는 카페 델씨엘로 더치커피 맛있어요"
+			data-oninitialize="splugin_oninitialize();"
+		><span class="sim" style="pointer-events:none"><!-- 공유 --></span></a>
+	</div>
+	
+	<div class="aside">
+		
+		<div class="lst_t2">
+			<h2 class="tit_h2">
+				<span class="txt">
+					<a href="/PostList.nhn?blogId=807ljs&categoryNo=11&logCode=0&categoryName=%EB%82%A0%EC%BA%A0+%EA%B0%80%ED%8F%89" onclick="nclk(this, 'pst.otherlist', '', '');"><strong class="ell">날캠 가평</strong></a>
+				</span>
+				<span class="txt2">의 다른 글</span>
+			</h2>
+			
+			<div class="cflick">
+			    
+			    <div class="cflick-container">
+			        
+			        <div class="cflick-ct" >
+			        <ul class="_category_post_list">
+						</ul>
+			        </div>
+			        <div class="cflick-ct">
+						<ul class="_category_post_list">
+						</ul>
+			        </div>
+			        <div class="cflick-ct">
+			        <ul class="_category_post_list">
+						</ul>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="paging_t1" id=_pagingBtn>
+				<a href="#" class="prev sim _prev_category_post _returnFalse" onclick="nclk(this, 'pst.prev', '', '');" style='display:none'>이전</a><span class="prev sim">이전</span>
+				<a href="#" class="next sim _next_category_post _returnFalse" onclick="nclk(this, 'pst.next', '', '');" style='display:none'>다음</a><span class="next sim">다음</span>
+			</div>
+		</div>
+		
+
+	
+		
+	
+		
+		
+	</div>
+	
+	
+	
+	
+
+	
+	
+	
+
+</div>
+<div class="social_plugin_property" style="display:none">{&#034;title&#034;:&#034;청평 분위기있는 카페 델씨엘로 더치커피 맛있어요&#034;,&#034;source&#034;:&#034;http://blog.naver.com/807ljs/220040375440&#034;,&#034;blogName&#034;:&#034;날로먹는캠..&#034;,&#034;blogId&#034;:&#034;807ljs&#034;,&#034;logNo&#034;:220040375440,&#034;lineDisplay&#034;:true,&#034;outsideDisplay&#034;:true,&#034;cafeDisplay&#034;:true,&#034;blogDisplay&#034;:true,&#034;meDisplay&#034;:true}</div>
+
+		        </div>
+		        <div class="flick-ct">
+		        </div>
+		    </div>
+		</div>
+	  	<div id="_loading2" class="loading2" style="display:none">
+			<div class="dimmed"></div>
+			<span class="img_loading2 sim">로딩중</span>
+		</div>
+	</div>
+	<div id="footer" class="footer _commonFooter">
+		
+		<div id="POST_VIEW_BOTTOM_WEB" class="btm_banner"></div>
+		<div class="btn_top">
+			<a href="javascript:window.scrollTo(0,0)" onclick="nclk(this, 'fot.top', '', '');"><span class="sim">TOP</span></a>
+		</div>
+		
+
+
+<footer role="contentinfo">
+	<div class="footer_btm footer">
+		<div class="btn_top" id="_btn_top" style="display:none;">
+			<a href="#" onclick="nclk(this, 'fot.top', '', '');"><span class="sim" >TOP</span></a>
+		</div>
+		
+		<div class="btn_w">
+			
+			
+				
+					<a href="javascript:loginUtil.login()" class="btn" onclick="nclk(this, 'fot.login', '', '');">로그인</a>
+				
+				
+			
+			<a href="http://m.naver.com/services.html" class="btn" onclick="nclk(this, 'fot.app', '', '');">전체 앱</a>
+			
+		 		
+		 		
+		 		
+		 		
+					
+		  		
+			
+			
+			<a id="_footer_pcUrl" href="http://blog.naver.com/807ljs/220040375440?viewType=pc" class="btn" onclick="nclk(this, 'fot.gopc', '', '');">PC버전</a>
+			<a href="http://m.naver.com/services.html?f=svc.blog" class="btn btn_v2" onclick="nclk(this, 'fot.sitemap', '', '');">전체서비스</a>
+		</div>
+		<p class="copyright">
+			© <a href="http://www.navercorp.com/" onclick="nclk(this, 'fot.navercorp', '', '');">NAVER Corp.</a> <span class="bar">|</span> <a href="https://m.help.naver.com/support/service/main.nhn?serviceNo=5593" onclick="nclk(this, 'fot.help', '', '');">블로그 고객센터</a> <span class="bar">|</span> <a href="https://m.help.naver.com/support/issue/report.nhn?serviceNo=5593" onclick="nclk(this, 'fot.report', '', '');">오류신고</a>
+		</p>
+	</div>	
+</footer>
+	</div>
+	
+</div>
+<div class="tablet_aside">
+	<div id="_recentPostList"></div>
+	<div id="_loading3" class="loading2" style="display:none">
+		<div class="dimmed"></div>
+		<span class="img_loading2 sim">로딩중</span>
+	</div>
+</div>
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+	<!-- 네이버앱설치유도 -->
+		
+
+
+
+<style type="text/css">
+.lyr_app{box-sizing:border-box;position:fixed;top:0;left:0;right:0;bottom:0;z-index:4000;height:100%;padding:0 28px;text-align:center}
+.lyr_app .dimmed{position:absolute;top:0;left:0;right:0;bottom:0;z-index:4000;width:100%;height:100%;background:#000;opacity:.8}
+.lyr_app:before{display:inline-block;overflow:hidden;width:0;height:100%;margin-left:-5px;vertical-align:middle;content:''}
+.lyr_app .lyr_cont{display:inline-block;position:relative;z-index:5000;width:100%;max-width:424px;max-height:602px;vertical-align:middle;}
+.lyr_app .lyr_cont img{width:100%;vertical-align:top}
+.lyr_app .lyr_cont a{display:block;position:absolute;overflow:hidden;color:transparent;}
+.lyr_app .lyr_cont .link2{left:0;top:70.7%;width:100%;height:14.5%;}
+.lyr_app .lyr_cont .link3{left:0;bottom:0;width:100%;height:14.5%;}
+.lyr_app .lyr_cont .link4{right:0;top:0;width:11.5%;height:8.5%;}
+@media screen and (max-height: 480px) and (orientation: landscape){.lyr_app .lyr_cont{width:180px}}
+</style>
+
+<div class="lyr_app" id="naverAppLyr" style="display:none">
+	<div class="dimmed"></div>
+	<div class="lyr_cont">
+		<a href="http://m.nstore.naver.com/appstore/installApp.nhn?productNo=409102" class="link2" onclick="nclk(this, 'ins.naver', '', '');">네이버 앱스토어에서 설치하기</a>
+		<a href="market://details?id=com.nhn.android.blog" class="link3" onclick="nclk(this, 'ins.google', '', '');">구글플레이에서 설치하기</a>
+		<a href="#" class="link4 _returnFalse" >레이어 닫기</a>
+		<img src="http://static.naver.net/blog/m/lyr_app2.png">
+	</div>
+</div>
+
+<script>
+
+
+$Fn(this.doClick, this).attach($("naverAppLyr"), "click");
+
+function doClick(oEvent) {
+	var el = oEvent.element;
+	var wel = $Element(cssquery.getSingle('!button', el) ? cssquery.getSingle('!button', el) : $Element(cssquery.getSingle('!a', el) ? cssquery.getSingle('!a', el) : el));
+	
+	if (wel.hasClass("link4")) {	
+		if ($("body")) {
+			$("body").setAttribute('style', '');
+		}
+		$Element("naverAppLyr").toggle();
+	} else if (wel.hasClass('_returnFalse')) {
+		event.stop();
+	} 
+}
+
+</script>
+	<!--// 네이버앱설치유도 -->
+
+	
+	<div class="pop_lyr2 _buddyRecommendationLayer" style="display:none;">
+		<div class="dimmed">
+		</div>
+
+		<div class="lyr_cont">
+			<div class="lyr_add_buddy">
+				<div class="writer_area">
+					<span class="thumb">
+                    	
+                    		<img src="http://blogpfthumb.phinf.naver.net/20140603_144/807ljs_1401793984172e8Rev_JPEG/PA050071.jpg?type=s1" width="50" height="50" alt="섬네일">
+                    	
+                    	
+					</span>
+
+					<span class="dsc">
+						<strong class="nick">날로먹는캠핑</strong>님의 글을 세편 읽으셨네요~<br>
+						이웃추가하고 구독해 보실래요?
+					</span>
+				</div>
+				<a href="#" class="btn add_buddy _add_buddy _param(807ljs|false||/BuddyAddForm.nhn) _returnFalse" onclick="nclk(this, 'adf.add','','');">이웃추가</a>
+				<a href="#" class="btn cancel _cancelBuddyRecommendation" onclick="nclk(this, 'adf.cancel','','');">취소</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="blogTeamBuddyRecommendationLayer" class="pop_lyr2 _blogTeamBuddyRecommendationLayer" style="display:none;">
+	</div>
+</body>
+<script type="text/template" id="related_post">
+{for post in posts}
+	<li class="lst_detail_t2 _list_{=post.logNo}">
+		<a href="/PostView.nhn?blogId={=blogId}&logNo={=post.logNo}" onclick="nclk(this, 'pst.other', '', '');">
+			{if post.postImageUrl != null}
+			<span class="thumb"><img src="{=post.postImageUrl}?type=s2" width="58" height="57" alt="섬네일"></span>
+			{/if}
+			<span class="tit"><span class="ell">{=post.title}</span></span>
+			{if post.commentCount != 0}
+			<span class="txt">({=post.commentCount})</span>
+			{/if}
+		</a>
+	</li>
+{/for}
+</script>
+<script type="text/template" id="recommend_blogteam">
+<div class="dimmed">
+</div>
+<div class="lyr_cont">
+	<div class="lyr_add_buddy">
+		<div class="writer_area">
+			<span class="dsc">
+				<span class="thumb">
+               		<img src="{=profileImageUrl}" width="50" height="50" alt="섬네일">
+				</span>
+				<strong class="nick">첫 글 작성을 축하드려요!</strong>
+				<br><strong class="nick">블로그팀</string>의 이웃이 되어주실래요?
+			</span>
+		</div>
+		<a href="#" class="btn add_buddy _add_buddy _add_blogteam_buddy _param(blogpeople|true||/BuddyAddForm.nhn) _returnFalse" onclick="nclk(this, 'bap.add','','');">이웃추가</a>
+		<a href="#" class="btn cancel _cancle_blogteam_buddy" onclick="nclk(this, 'bap.can','','');">취소</a>
+	</div>
+</div>
+</script>
+
+
+<script type="text/javascript">
+var gUrlMap = {
+		'PostViewAsyncTpl' : '/PostViewAsyncTpl.nhn',
+		'BlogPostPrevIndexAsync' : '/BlogPostPrevIndexAsync.nhn',
+		'BlogPostNextIndexAsync' : '/BlogPostNextIndexAsync.nhn',
+		'TotalPostPrevIndexAsync' : '/TotalPostPrevIndexAsync.nhn',
+		'TotalPostNextIndexAsync' : '/TotalPostNextIndexAsync.nhn',
+		'BuddyPostPrevIndexAsync' : '/BuddyPostPrevIndexAsync.nhn',
+		'BuddyPostNextIndexAsync' : '/BuddyPostNextIndexAsync.nhn',
+		'HotTopicPostPrevIndexAsync' : '/HotTopicPostPrevIndexAsync.nhn',
+		'HotTopicPostNextIndexAsync' : '/HotTopicPostNextIndexAsync.nhn',
+		'DirectoryPostPrevIndexAsync' : '/DirectoryPostPrevIndexAsync.nhn',
+		'DirectoryPostNextIndexAsync' : '/DirectoryPostNextIndexAsync.nhn',
+		'PopularPostPrevIndexAsync' : '/PopularPostPrevIndexAsync.nhn',
+		'PopularPostNextIndexAsync' : '/PopularPostNextIndexAsync.nhn',
+		'SectionSearchPostPrevIndexAsync' : '/SectionSearchPostPrevIndexAsync.nhn',
+		'SectionSearchPostNextIndexAsync' : '/SectionSearchPostNextIndexAsync.nhn',
+		'MylogSearchPostPrevIndexAsync' : '/MylogSearchPostPrevIndexAsync.nhn',
+		'MylogSearchPostNextIndexAsync' : '/MylogSearchPostNextIndexAsync.nhn',
+		'NearPostPrevIndexAsync' : '/NearPostPrevIndexAsync.nhn',
+		'NearPostNextIndexAsync' : '/NearPostNextIndexAsync.nhn',
+		'PostCategoryListAsync' : '/PostCategoryListAsyncTpl.nhn',
+		'BlogTagListInfo' : '/BlogTagListInfo.nhn',
+		'SympathyHistoryListAsync' : '/SympathyHistoryListAsync.nhn',
+		'SympathyAddAsync' : '/SympathyAddAsync.nhn',
+		'SympathyDeleteAsync' : '/SympathyDeleteAsync.nhn',
+		'RelatedPostListAsync' : '/RelatedPostListAsync.nhn',
+		'NextRelatedPostListAsync' : '/NextRelatedPostListAsync.nhn',
+		'PrevRelatedPostListAsync' : '/PrevRelatedPostListAsync.nhn',
+		'CommentList' : '/CommentList.nhn',
+		'PostDelete' : '/PostDelete.nhn',
+		'ViewStatAsync' : '/ViewStatAsync.nhn',
+		'Login' : '/Login.nhn',
+		'Logout' : '/Logout.nhn',
+		'MapPinCoordinateInfoAsync' : '/MapPinCoordinateInfoAsync.nhn',
+		'PostView' : '/PostView.nhn',
+		'ScrapToBlog' : '/ScrapToBlog.nhn',
+		'ScrapToCafe' : '/ScrapToCafe.nhn',
+		'PostUpdateSetInfoForm' : '/PostUpdateSetInfoForm.nhn'
+	}
+
+</script>
+<script type="text/javascript" src="http://blog.like.naver.com/static/js/likeIt.list.js?v=20150610"></script>
+<script type="text/javascript">
+document.domain = 'naver.com';
+var blogId = "807ljs"
+var gMCA = JSON.parse('{"mobileInAppType":"NOTINAPP","mobileBrowser":{"type":"UNDEFINED","version":0.0,"androidGingerbread":false,"isDolfin":false,"dolfin":false,"isOpera":false,"opera":false,"safari":false,"isAndroid":false,"android":false},"androidNewStyleAppVersion":false,"inAppVersion":"2.0.0","isNaverInApp":false,"notInAppSafariOrAndroidBrowser":false,"naverServiceAppInstallUrl":"/services.html","blogAppInstallUrl":"http://m.naver.com/services.html","isAndroidApp":false,"isIOSApp":false,"inAppYn":false,"supportToolButton":false,"supportHappybeanWrite":false,"supportPostAlbumApp":false,"supportDaliyWrite":false,"supportBuddyAppPushAndBuddyInvitation":false,"stampEnabledAppVersion":false,"stampEnabledInBuddyListAppVersion":false,"lazyLoadableBrowser":false,"iOSMenuNavigationV2":false,"iOSMenuNavigationV1":false,"iOS7":false}');
+var gsPostTitle = "청평 분위기있는 카페 델씨엘로 더치커피 맛있어요 : 네이버 블로그";
+var gnCategoryNo = 11;
+
+var sIndexInfo = '[{"blogId":"807ljs","logNo":220103332337,"categoryNo":11,"parentCategoryNo":null,"addDate":1408965919830,"logType":0},{"blogId":"807ljs","logNo":220040375440,"categoryNo":11,"parentCategoryNo":null,"addDate":1403613894400,"logType":0},{"blogId":"807ljs","logNo":220011003964,"categoryNo":11,"parentCategoryNo":null,"addDate":1401076800000,"logType":0}]';
+var sStartLogNo = '220040375440';
+var sNavType = 'bg';
+var sDirectorySeq = '';
+var sBuddyGroupId = '';
+
+var gLogNo = '220040375440';
+var isScrapPost = false;
+
+
+var readOnlyStatus = false;
+var readOnlyStatusAll = false;
+var readOnlyLinkErrorMsgMobile = '블로그 점검 중으로 기존 글 삭제 덧글 답글 공감 이웃추가 구독하기 새글OFF 그룹이동 기능이 제한됩니다.';
+
+
+
+
+
+var safariBrowser = "SAFARI";
+var safariIpadBrowser = "SAFARI_IPAD";
+var androidBrowser = "ANDROID";
+var androidGalTabBrowser = "ANDROID_GALTAB";
+var androidHoneyCombBrowser = "ANDROID_HONEYCOMB";
+
+var gBrowserType = "UNDEFINED";
+var inAppVersion = "2.0.0";
+var isInApp = false;
+var isAndroidBrowser = (gBrowserType == androidBrowser) || (gBrowserType == androidGalTabBrowser) || (gBrowserType == androidHoneyCombBrowser);
+var isSafariBrowser = (gBrowserType == safariBrowser || gBrowserType == safariIpadBrowser);
+
+var gbIsAfterWrite = false;
+
+var userId = "";
+var scrapedInfo = {
+		bMemo : false,
+		logNo : 0,
+		nOpenType : 2
+	}
+
+
+
+var gBannerListMapJson = '';
+
+
+var gdid = "90000003_00000000000000333B6DAC90";
+var lcsUrl = "http://m.blog.naver.com/PostView.nhn?blogId=807ljs&logNo=220040375440";
+var buddyController = null;
+var likeitUrl = "http://blog.like.naver.com";
+
+$Element(window).attach("load", function(event) {
+	lcs_do_gdid(gdid, lcsUrl);
+
+	buddyController = new BuddyController("807ljs");
+	buddyController.start();
+
+	var bBlockPostFlick = "false" == "true";
+	new PostViewController(sIndexInfo, sStartLogNo, sNavType, "false", "", "http://spi.naver.net/js/release/ko_KR/splugin.m.js?", "http://openapi.map.naver.com/openapi/openapi_v23.js", bBlockPostFlick, "false", "11", "", 0).start();
+	new BannerController(new BannerView(), new BannerModel(), isAndroidBrowser, false, "2.0.0").start();
+	new BlogAppAdController().start();
+	new RclickUtility().checkRClickYN(rightClickOpenYn, blogOwner);
+
+   try {
+		nhn.LikeIt.list.util.init({
+		      sId : "BLOG"
+			    , sDomain : likeitUrl
+			     , bMobile : true
+			     , sMaxCount : "99,999+"
+			     , bHideZeroCount : false
+			     , oLog :  {nClicks : {like : "pst.like", unlike : "pst.unlike"}}
+	        });
+
+   } catch(e){}
+
+});
+</script>
+
+<script type="text/javascript" src="/js/style2014/recommendation/BlogTeamBuddyRecommendHandler.js"></script>
+<script type="text/javascript" src="http://t.static.blog.naver.net/nmobile/versioning/PostView-5957041.js" charset="UTF-8"></script>
+
+
+
+
+
+<script type="text/javascript">
+
+var safariBrowser = "SAFARI";
+var safariIpadBrowser = "SAFARI_IPAD";
+var androidBrowser = "ANDROID";
+var androidGalTabBrowser = "ANDROID_GALTAB";
+var androidHoneyCombBrowser = "ANDROID_HONEYCOMB";
+var dolfinBrowser = "DOLFIN";
+var operaBrowser = "OPERA";
+
+
+var gBrowserType = "UNDEFINED";
+var gBrowserVersion = "0.0";
+var isSafariBrowser = (gBrowserType == safariBrowser || gBrowserType == safariIpadBrowser);
+var isIos4xSafariBrowser = isSafariBrowser && (navigator.userAgent.match(/OS 4_3/i)) ? true : false;
+var isIos5xSafariBrowser = isSafariBrowser && (navigator.userAgent.match(/OS 5/i)) ? true : false;
+var isAndroidBrowser = (gBrowserType == androidBrowser) || (gBrowserType == androidGalTabBrowser) || (gBrowserType == androidHoneyCombBrowser);
+var isAndroid4xBrowser = isAndroidBrowser && (navigator.userAgent.match(/Android 4./i)) ? true : false;
+var isAndroidGingerbread = false;
+var isDefaultTextSupportingBrowserType = false;
+var gIsNotInAppSafariOrAndroidBrowser = false;
+
+
+var gDeployPhase = "release";
+
+var ReloadFile=(function(){var d=2500;var b={};var h={};var c=5;function k(o){var n=o.split(/\/+/g);var p=n[n.length-1].split("?")[0].split(".")[0];return p}function a(){var n=document.getElementsByTagName("script");for(var p=0;p<n.length;p++){var q=n[p].src;if(q!=""&&q.toLowerCase().indexOf("lazyloading")<0&&(q.toLowerCase().indexOf("blog.naver.com")>-1||q.toLowerCase().indexOf("blog.naver.net")>-1)){var o=k(q);var r=o+"_js";n[p].id=r;f(r,c);l(r,q)}}}function g(){var n=document.getElementsByTagName("link");for(var p=0;p<n.length;p++){var r=n[p].href;var q=n[p].type;if("text/css"==q.toLowerCase()&&r!=""&&r.toLowerCase().indexOf("lazyloading")<0&&(r.toLowerCase().indexOf("blog.naver.com")>-1||r.toLowerCase().indexOf("blog.naver.net")>-1)){var o=k(r);var s=o+"_css";n[p].id=s;f(s,c);e(s,r)}}}function l(q,o){i(q);if((typeof window.defineNHNJS=="undefined"||typeof window.defineNHNJS[q]=="undefined")&&b[q].retry++<b[q].maxRetry){var n=document.getElementById(q);var p=document.createElement("script");p.type="text/javascript";p.id=n.id;p.charset=n.charset;p.src=o+"?"+new Date().getTime()+"_"+Math.floor(Math.random()*100)+1;n.parentNode.removeChild(n);document.getElementsByTagName("body")[0].appendChild(p);m(q,function(){l(q,o)})}}function m(o,n){if(b[o].maxRetry>1){h[o]=setTimeout(n,d)}}function f(o,n){b[o]={retry:0,maxRetry:n||1}}function i(n){if(typeof h[n]!="undefined"){clearTimeout(h[n]);h[n]=null}}function e(o,n){document.addEventListener("DOMContentLoaded",function(){j(o,n)},false)}function j(u,q){i(u);if(b[u].retry++<b[u].maxRetry){var t="defineNHNCSS_"+u;var s=document.getElementById(t);if(!s){var n=document.createElement("div");n.id=t;n.style.display="none";document.body.appendChild(n);s=document.getElementById(t)}var o=document.defaultView.getComputedStyle(s,"").getPropertyValue("color");if(o=="rgb(0, 0, 0)"){var p=document.getElementById(u);var r=document.createElement("link");r.rel="stylesheet";r.type="text/css";r.id=p.id;r.charset=p.charset;r.href=q+"?"+new Date().getTime()+"_"+Math.floor(Math.random()*100)+1;p.parentNode.removeChild(p);document.getElementsByTagName("body")[0].appendChild(r);m(u,function(){j(u,q)})}}}return{js:function(n){try{if(n==null||n=="local"){return}a()}catch(o){}},css:function(n){try{if(n==null||n=="local"){return}g()}catch(o){}}}})();if((isSafariBrowser||isAndroidBrowser)&&typeof gDeployPhase!="undefined"&&gDeployPhase!=""){if(window.attachEvent){window.attachEvent("onload",function(){ReloadFile.js(gDeployPhase)})}else{window.addEventListener("load",ReloadFile.js(gDeployPhase),false)}ReloadFile.css(gDeployPhase)};
+</script>
+
+</html>

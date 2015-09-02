@@ -1,0 +1,72 @@
+[#0 pydemon log] :: 2015-08-26 03:19:17.587779
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+[#0 pydemon log] :: 2015-08-26 03:20:40.287909
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+[#0 pydemon log] :: 2015-08-26 03:21:41.427984
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+[#1 pydemon log] :: 2015-08-26 03:22:06.532244
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+[#0 pydemon log] :: 2015-09-01 21:59:10.577033
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '/home/khlee/daum/test/express'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:935:3
+[#0 pydemon log] :: 2015-09-01 21:59:46.177067
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+[#0 pydemon log] :: 2015-09-01 22:00:57.106177
+[0mGET /?loc=%22%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC%22 [36m302 [0m204.903 ms - 166[0m
+
+/home/khlee/daum/test/routes/daum-map.js:30
+				loc_id = j_obj["place"][0]["confirmid"]
+				                          ^
+TypeError: Cannot read property 'confirmid' of undefined
+    at IncomingMessage.<anonymous> (/home/khlee/daum/test/routes/daum-map.js:30:31)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)

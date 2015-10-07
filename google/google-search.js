@@ -49,6 +49,8 @@ search = function(query, page_num, callback_for_res){
 	}
 	var encoded_query = encodeURI(query);
 	/*
+	구글이 이 코드를 막아버렸다!!!!!  젠장
+	
 	var query_url = util.format('/search?q=%s&rlz=1C1OPRB_enKR535KR535&oq=%s'+
 							'&aqs=chrome.0.69i59j0l5.1309j0j9'+
 							'&sourceid=chrome&es_sm=122&ie=UTF-8'+

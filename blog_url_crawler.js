@@ -29,6 +29,9 @@ for (var i in place_list) {
 				stmt.run(place,url); 
 				stmt.finalize();
 			});
+			
+			//db close 를 해야 되는데 어디서 해야되는지 모르겠다!!!
+			//그리고 구글이 검색을 막아서 안된다 젠장!!!
 		});
 	}
 }

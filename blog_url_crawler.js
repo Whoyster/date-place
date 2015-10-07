@@ -22,14 +22,13 @@ for (var i in place_list) {
 		var place = place_list[i];
 		var g_query = place + post_query;
 		console.log(g_query);
-		google.search(g_query, j+1, function(url){
+		google.search(g_query, j, function(url){
 			console.log(url);
 			db.serialize(function(){
 				var stmt = db.prepare("INSERT INTO blog(blog_area, blog_url) VALUES(?,?)");
 				stmt.run(place,url); 
 				stmt.finalize();
 			});
-			db.close();
 		});
 	}
 }

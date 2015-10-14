@@ -22,34 +22,27 @@ console.log('------------------------------');
 
 //google search sample
 google_list = [];
-list_add = function(g_query){
-	obj = function (callback){
-			console.log(g_query);
-			google.search(g_query, j, function(url){
-				callback(null,url);
-			});
-		};
-	google_list.push(obj);
-};
-
 for (var i in place_list) {	
 	for(var j = 0 ; j < 1 ; j++){
 		var place = place_list[i];
 		var g_query = place + post_query;
 		console.log('query : "' + g_query + '"');
-		list_add(g_query);
+		google_list.push(
+			function(callback){
+				google.search(g_query, j, function(url){
+					callback(null,url);
+				});
+			}
+		);
 	}
 }
 console.log('--------------------------');
 console.log(google_list);
 
-async.series(google_list, 
+async.parallel(google_list, 
 	function(err, results){
-		url_list = []
-		for(var i in arguments[1]){
-			url_list = url_list.concat(arguments[1][i]);
-		}
-		console.log(url_list)
+		console.log('fuck');
+		console.log(arguments);
 	}
 );
 

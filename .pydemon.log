@@ -4560,3 +4560,102 @@ events.js:72
         throw er; // Unhandled 'error' event
               ^
 Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: blog.blog_url
+T: 2015-10-14 22:57:09 #46 Log
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './google/google-search.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/mac/project/date-place/blog_url_crawler.js:7:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+T: 2015-10-14 22:57:13 #47 Log
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './google/google-search.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/mac/project/date-place/blog_url_crawler.js:7:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+T: 2015-10-14 22:57:43 #48 Log
+[ '대명동', '도곡동' ]
+place count : 2
+T: 2015-10-14 22:58:14 #49 Log
+[ '대명동', '도곡동', '' ]
+[ '대명동', '도곡동' ]
+place count : 2
+T: 2015-10-14 22:58:50 #50 Log
+place count : 2
+[ '대명동', '도곡동' ]
+post query :  �ٻ���|��õ|������|����Ʈ|�̻�|���ٸ�|����|���ִ� ī��|�Ĵ�|��������|�ѽ�|�Ͻ� site:tistory.com | site:blog.naver.com
+
+T: 2015-10-14 23:00:20 #51 Log
+place count : 2
+[ '대명동', '도곡동' ]
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+T: 2015-10-14 23:00:45 #52 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+T: 2015-10-14 23:01:42 #53 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+T: 2015-10-14 23:02:13 #54 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+
+query : "대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+"
+query : "도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+"
+T: 2015-10-14 23:05:01 #55 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+query : "대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+query : "도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+T: 2015-10-14 23:05:27 #56 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+------------------------------
+query : "대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+query : "도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+T: 2015-10-14 23:06:12 #57 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+------------------------------
+query : "대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+query : "도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+T: 2015-10-14 23:06:19 #58 Log
+place count : 2
+place list : 대명동,도곡동
+post query :  근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com
+------------------------------
+query : "대명동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"
+query : "도곡동 근사한|추천|분위기|데이트|이색|색다른|좋은|맛있는 카페|식당|레스토랑|한식|일식 site:tistory.com | site:blog.naver.com"

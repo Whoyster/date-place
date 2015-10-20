@@ -29,7 +29,7 @@ list_add = function(place, g_query){
 	obj = function (callback){
 			console.log(g_query);
 			google.search(g_query, j, function(url){
-				next_time = randomIntInc(4000,10000);
+				next_time = randomIntInc(6000,12000);
 				console.log(next_time)
 				setTimeout(function() {
 					callback(null,[place,url]);
@@ -60,17 +60,14 @@ db_insert = function(db, place ,url) {
 
 async.series(google_list, 
 	function(err, results){
-		place_list = [];
-		url_list = [];
-		for(var i in arguments[1]){
-			place_list = place_list.concat(arguments[1][i][0]);
-			url_list = url_list.concat(arguments[1][i][1]);
-		}
-		console.log(place_list);
+		url_list = arguments[1]
 		console.log(url_list);
 		var db = new sqlite3.Database('dpdb');
 		for(var i in url_list){
-			db_insert(db,place_list[i],url_list[i]);			
+			place = url_list[i][0];
+			for(var j in url_list[i][1]){
+				db_insert(db,place,url_list[i][1][j]);			
+			}
 		}
 		db.close();
 	}

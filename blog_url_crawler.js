@@ -20,21 +20,19 @@ console.log('place list : ' + place_list)
 console.log('post query : ' + post_query);
 console.log('------------------------------');
 
-//google search sample
-
 function randomIntInc (low, high) {
     return Math.floor(Math.random() * (high - low + 1) + low);
 }
 
 google_list = [];
-list_add = function(g_query){
+list_add = function(place, g_query){
 	obj = function (callback){
 			console.log(g_query);
 			google.search(g_query, j, function(url){
 				next_time = randomIntInc(4000,10000);
 				console.log(next_time)
 				setTimeout(function() {
-					callback(null,url);
+					callback(null,[place,url]);
 				},next_time);
 			});
 		};
@@ -46,30 +44,33 @@ for (var i in place_list) {
 		var place = place_list[i];
 		var g_query = place + post_query;
 		console.log('query : "' + g_query + '"');
-		list_add(g_query);
+		list_add(place, g_query);
 	}
 }
 console.log('--------------------------');
 console.log(google_list);
 
-db_insert = function(db, url) {
+db_insert = function(db, place ,url) {
 	db.serialize(function(){
 		var stmt = db.prepare("INSERT INTO blog(blog_area, blog_url) VALUES(?,?)");
-		stmt.run('hey',url); 
+		stmt.run(place, url); 
 		stmt.finalize();
 	});
 }
 
 async.series(google_list, 
 	function(err, results){
-		url_list = []
+		place_list = [];
+		url_list = [];
 		for(var i in arguments[1]){
-			url_list = url_list.concat(arguments[1][i]);
+			place_list = place_list.concat(arguments[1][i][0]);
+			url_list = url_list.concat(arguments[1][i][1]);
 		}
-		console.log(url_list)
+		console.log(place_list);
+		console.log(url_list);
 		var db = new sqlite3.Database('dpdb');
 		for(var i in url_list){
-			db_insert(db,url_list[i]);			
+			db_insert(db,place_list[i],url_list[i]);			
 		}
 		db.close();
 	}

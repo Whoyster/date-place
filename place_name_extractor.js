@@ -17,3 +17,4 @@ function extract(url, callback){
 };
 
 extract('http://m.blog.naver.com/k44smy/100112294346', function(result){ console.log(result) });
+extract('http://www.naver.com/', function(result) {console.log(result)});

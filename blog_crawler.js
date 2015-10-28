@@ -6,7 +6,7 @@ var google = require('./google/google.js');
 var sqlite3 = require("sqlite3").verbose();
 var sleep = require('sleep');
 var async = require('async');
-var place_name_extractor = require('place_name_extractor.js');
+var place_name_extractor = require('./place_name_extractor.js');
 var map = require('./map_search/daum-map.js');
 var db = require('./map_search/dpdb.js');
 
@@ -56,6 +56,8 @@ for (var i in place_list) {
 console.log('--------------------------');
 console.log(google_list);
 
+db.init();
+
 async.series(google_list, 
     function(err, results){
         blog_data = arguments[1]
@@ -63,19 +65,33 @@ async.series(google_list,
         for(var i in blog_data){
             place = blog_data[i][0];
             url_list = blog_data[i][1];
-			
-			for(var j in url_list){
-				place_name_extractor.extract(url_list[j], place_name_extract_callback);
-			}
-			
             
-            console.log(place);
-            console.log(url_list.length);
+            for(var j in url_list){
+                place_name_extractor.extract(place, url_list[j], place_name_extract_callback);
+            }
+
+            //console.log(place);
+            //console.log(url_list.length);
         }
     }
 );
 
-function place_name_extract_callback(place_name){
-	
+//db.close();
+
+function place_name_extract_callback(loc_name, store_name, url){
+
+    if(store_name == undefined)
+        return;
+    else
+        console.log(loc_name +" : "+store_name);
+
+    var search_query = loc_name + " " + store_name;
+    map.get_map_info(search_query, function(loc_info) {
+            var values = [ loc_info["confirmid"], loc_info["address"], loc_info["name"], loc_info["last_cate_name"], loc_info["x"], loc_info["y"]];
+            db.insert_store(values, function(store_id){
+                console.log("store id: " + store_id);
+                db.insert_blog([url,loc_name,store_id]); 
+            }); 
+    });
 }
 

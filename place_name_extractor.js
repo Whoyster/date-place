@@ -5,16 +5,18 @@ var jsdom = require('node-jsdom');
 var jquery = fs.readFileSync("./jquery.js", "utf-8");
 
 
-function extract(url, callback){
+exports.extract = function (url, callback){
 	jsdom.env({
 		url:url,
 		src:[jquery],
 		done:function(errors, window){
 			var placename = window.$("div.map p.tit").html();
+			if(placename == undefined)
+				placename = window.$("#TixIntroMap div:nth-child(2) span:nth-child(3)").html();
+			
+			if((typeof placename) == 'string')
+				placename = placename.trim();
 			callback(placename);
 		}
 	});
 };
-
-extract('http://m.blog.naver.com/k44smy/100112294346', function(result){ console.log(result) });
-extract('http://www.naver.com/', function(result) {console.log(result)});

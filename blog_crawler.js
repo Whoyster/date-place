@@ -9,8 +9,13 @@ var sqlite3 = require("sqlite3").verbose();
 var sleep = require('sleep');
 var async = require('async');
 
-//read place list from origin place.txt
-var place_list = fs.readFileSync('place','utf-8').split('\n');
+if (process.argv.length < 4) {
+	console.log("usage : node blog_url_crawler.js <page-MAX> <place.txt>");
+	process.exit();
+}
+var page_max = process.argv[2];
+var place_txt = process.argv[3];
+var place_list = fs.readFileSync(place_txt,'utf-8').split('\n');
 var post_query = fs.readFileSync('post-query','utf-8');
 post_query = post_query.substring(0,post_query.length-1);
 place_list.pop();
@@ -25,12 +30,12 @@ function randomIntInc (low, high) {
 }
 
 google_list = [];
-list_add = function(place, g_query){
+list_add = function(place, page ,g_query){
 	obj = function (callback){
 			console.log(g_query);
-			google.search(g_query, j, function(url){
+			google.search(g_query, page, function(url){
 				next_time = randomIntInc(6000,12000);
-				console.log(next_time)
+				console.log("crawler after : " + next_time + " ms")
 				setTimeout(function() {
 					callback(null,[place,url]);
 				},next_time);
@@ -40,36 +45,27 @@ list_add = function(place, g_query){
 };
 
 for (var i in place_list) {	
-	for(var j = 0 ; j < 1 ; j++){
+	for(var j = 0 ; j < page_max ; j++){
 		var place = place_list[i];
 		var g_query = place + post_query;
 		console.log('query : "' + g_query + '"');
-		list_add(place, g_query);
+		list_add(place, j, g_query);
 	}
 }
 console.log('--------------------------');
 console.log(google_list);
 
-db_insert = function(db, place ,url) {
-	db.serialize(function(){
-		var stmt = db.prepare("INSERT INTO blog(blog_area, blog_url) VALUES(?,?)");
-		stmt.run(place, url); 
-		stmt.finalize();
-	});
-}
-
 async.series(google_list, 
 	function(err, results){
-		url_list = arguments[1]
-		console.log(url_list);
-		var db = new sqlite3.Database('dpdb');
-		for(var i in url_list){
-			place = url_list[i][0];
-			for(var j in url_list[i][1]){
-				db_insert(db,place,url_list[i][1][j]);			
-			}
+		blog_data = arguments[1]
+		console.log(blog_data);
+		for(var i in blog_data){
+			place = blog_data[i][0];
+			url_list = blog_data[i][1];
+			
+			console.log(place);
+			console.log(url_list.length);
 		}
-		db.close();
 	}
 );
 

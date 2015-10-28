@@ -1,17 +1,18 @@
 /*
 main for crawling blog content
-@author becxer
-@email becxer87@gmail.com
 */
 var fs = require('fs');
 var google = require('./google/google.js');
 var sqlite3 = require("sqlite3").verbose();
 var sleep = require('sleep');
 var async = require('async');
+var place_name_extractor = require('place_name_extractor.js');
+var map = require('./map_search/daum-map.js');
+var db = require('./map_search/dpdb.js');
 
 if (process.argv.length < 4) {
-	console.log("usage : node blog_url_crawler.js <page-MAX> <place.txt>");
-	process.exit();
+    console.log("usage : node blog_url_crawler.js <page-MAX> <place.txt>");
+    process.exit();
 }
 var page_max = process.argv[2];
 var place_txt = process.argv[3];
@@ -31,41 +32,50 @@ function randomIntInc (low, high) {
 
 google_list = [];
 list_add = function(place, page ,g_query){
-	obj = function (callback){
-			console.log(g_query);
-			google.search(g_query, page, function(url){
-				next_time = randomIntInc(6000,12000);
-				console.log("crawler after : " + next_time + " ms")
-				setTimeout(function() {
-					callback(null,[place,url]);
-				},next_time);
-			});
-		};
-	google_list.push(obj);
+    obj = function (callback){
+            console.log(g_query);
+            google.search(g_query, page, function(url){
+                next_time = randomIntInc(6000,12000);
+                console.log("crawler after : " + next_time + " ms")
+                setTimeout(function() {
+                    callback(null,[place,url]);
+                },next_time);
+            });
+        };
+    google_list.push(obj);
 };
 
-for (var i in place_list) {	
-	for(var j = 0 ; j < page_max ; j++){
-		var place = place_list[i];
-		var g_query = place + post_query;
-		console.log('query : "' + g_query + '"');
-		list_add(place, j, g_query);
-	}
+for (var i in place_list) {    
+    for(var j = 0 ; j < page_max ; j++){
+        var place = place_list[i];
+        var g_query = place + post_query;
+        console.log('query : "' + g_query + '"');
+        list_add(place, j, g_query);
+    }
 }
 console.log('--------------------------');
 console.log(google_list);
 
 async.series(google_list, 
-	function(err, results){
-		blog_data = arguments[1]
-		console.log(blog_data);
-		for(var i in blog_data){
-			place = blog_data[i][0];
-			url_list = blog_data[i][1];
+    function(err, results){
+        blog_data = arguments[1]
+        console.log(blog_data);
+        for(var i in blog_data){
+            place = blog_data[i][0];
+            url_list = blog_data[i][1];
 			
-			console.log(place);
-			console.log(url_list.length);
-		}
-	}
+			for(var j in url_list){
+				place_name_extractor.extract(url_list[j], place_name_extract_callback);
+			}
+			
+            
+            console.log(place);
+            console.log(url_list.length);
+        }
+    }
 );
+
+function place_name_extract_callback(place_name){
+	
+}
 

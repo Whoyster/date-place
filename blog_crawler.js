@@ -35,7 +35,7 @@ list_add = function(place, page ,g_query){
     obj = function (callback){
             console.log(g_query);
             google.search(g_query, page, function(url){
-                next_time = randomIntInc(6000,12000);
+                next_time = randomIntInc(60000,120000);
                 console.log("crawler after : " + next_time + " ms")
                 setTimeout(function() {
                     callback(null,[place,url]);

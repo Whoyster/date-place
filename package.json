@@ -1,0 +1,25 @@
+{
+  "name": "date-place",
+  "version": "1.0.0",
+  "description": "recommend date place..",
+  "main": "blog_crawler.js",
+  "dependencies": {
+    "sqlite3": "^3.1.0",
+    "async": "^1.4.2",
+    "node-jsdom": "^3.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whoyster/date-place.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Whoyster/date-place/issues"
+  },
+  "homepage": "https://github.com/Whoyster/date-place"
+}

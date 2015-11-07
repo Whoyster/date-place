@@ -2,7 +2,7 @@
 main for crawling blog content
 */
 var fs = require('fs');
-var google = require('./google/google.js');
+var google = require('google-query');
 var sqlite3 = require("sqlite3").verbose();
 var sleep = require('sleep');
 var async = require('async');

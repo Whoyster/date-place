@@ -2,7 +2,7 @@
 
 recommend date place..
 
-1차 버전 목표
+1차 버전 목표(언제할꺼)
 
 input : 지역명 (영통동 매탄동 등)
 output : 블로그를 분석한 맛집이 표시된 지도
